@@ -38,6 +38,18 @@ a:hover {
    transform: scale(1.06);
  }
 
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+
+.card-title {
+  color: black;
+  padding-top: 20px;
+}
+
 .alarmio {
   background-color: lightsteelblue;
 }
@@ -50,15 +62,7 @@ a:hover {
   background-color: #deb0ba;
 }
 
-.card-title {
-  color: black;
-  padding-top: 20px;
-}
-
-.card-text {
-  padding-bottom: 10px;
-}
-
+/* Title of projects */
 .title {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -107,11 +111,11 @@ a:hover {
   color: black;
 }
 
-.box{
+.box {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .row-text {
@@ -134,7 +138,7 @@ a:hover {
 }
 
 .prototype-img {
-  margin-left: 35px;
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 
@@ -182,7 +186,8 @@ a:hover {
 }
 
 .medalarm-img {
-  
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
 
 /* About page */
