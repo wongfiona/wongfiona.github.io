@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fiona Wong</title>
+    <link rel="icon" href="images/icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-white navbar-light sticky-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="images/icon.png" style="width: 50px"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h1 class="text-center title">Med Alarm</h1>
+      <div class="row medalarm-row">
+        <div class="column-phone">
+          <img class="img-fluid float-right" src="images/medalarm_imgs/iphone-medalarm.png" alt="Alarmio screen" style="width: 500px">
+        </div>
+        <div class="column-phone">
+          <div class="grid-container box">
+            <h5>Duration</h5>
+            <p>Aug - Sept 2018</p>
+            <h5>Course</h5>
+            <p>COGS 187A - Usability & Information Architecture</p>
+            <h5>Role</h5>
+            <p>UI / UX Designer</p>
+            <h5>Skills</h5>
+            <p>Storyboarding, Prototyping, UX Research</p>
+            <h5>Tools</h5>
+            <p>Marvel</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row-text">
+        <div class="column-text">
+          <h3 class="heading">Background</h3>
+        </div>
+        <div class="column-text">
+          <p>Elderly people who have medical needs often experience forgetting
+            when and how often to take each of their prescribed medications. According
+            to a <a href="https://www.epill.com/statistics.html" target="_blank">2010 Med
+              Ad News poll</a> with US individuals 65 years and older, 51% take at
+            least 5 different prescription drugs regularly. 57% of those polled admit that
+            they forget to take their medicine. Among those using 5 or more medications, 63%
+            say they forget doses. Our team decided to design a web application with the elderly
+            as our target audience. We wanted to help them alleviate this problem of forgetting
+            to take their medicine and overall make their life easier.</p>
+          <h4 class="blue">Key Challenges</h4>
+            <ol>
+              <li>Elderly people are not familiar with mobile apps.</li>
+              <li>Many apps require users to manually input detailed information about medicine.</li>
+              <li>Elderly people tend to have vision problems, which can lead to difficulty to use mobile apps.</li>
+            </ol>
+        </div>
+      </div>
+
+      <div class="row-text">
+        <div class="column-text">
+          <h3 class="heading">Storyboarding</h3>
+        </div>
+        <div class="column-text">
+          <p>We brainstormed a couple of personas to think about the type of users
+            who might use our app. We then created storyboards from these personas
+            to generate some scenarios where our app could be used as a
+            solution to their problems.</p>
+          <img src="images/medalarm_imgs/storyboard1.jpeg" style="width: 225px">
+          <img src="images/medalarm_imgs/storyboard2.jpeg" style="width: 225px">
+          <img src="images/medalarm_imgs/storyboard3.jpeg" style="width: 225px">
+        </div>
+    </div>
+
+    <div class="row-text">
+      <div class="column-text">
+        <h3 class="heading">Prototyping</h3>
+      </div>
+      <div class="column-text">
+        <p>We brainstormed many ideas and sketched out a few prototypes. We decided to offer two
+        interfaces: one for the <b>elderly</b> and one for the <b>caretakers</b> (family members, doctors).</p>
+        <img src="images/medalarm_imgs/prototype2.png" style="width: 500px">
+        <img class="float-right" src="images/medalarm_imgs/prototype.png" style="width: 300px">
+        <p> Once you open the app, the user is greeted with two buttons: main user or caretaker.
+          After selecting one of the two options and logging in, it will show two different screens
+          based on which interface the user chose. The elderly people's interface would show a daily
+          calendar with all their medicine reminders laid out in chronological order on their home
+          screen. The caretaker's interface would show a list of contacts for who they're taking care
+          of. Besides seeing all their medical information, they would also be able to add
+          new medications for them.</p>
+      </div>
+    </div>
+
+    <div class="row-text">
+      <div class="column-text">
+        <h3 class="heading">User Testing</h3>
+      </div>
+      <div class="column-text">
+        <p>After creating an interactive prototype, we conducted user testing with others
+          in our class. We received feedback regarding the layout of the app as well as
+          the user flow. We grouped and summarized all the feedback we received into a
+          single document so we could easily see which places we need to fix.</p>
+        <h4 class="blue">Features to Include:</h4>
+            <ul>
+              <li>Grouping the medicine on the home page into 3 time periods (morning,
+                afternoon, evening) as to not overwhelm the user with a list of medicine</li>
+              <li>Implementing a QR code feature for users to easily input medicine information,
+                rather than having to type everything out</li>
+              <li>Supporting font and color contrast adjustment to accommodate for vision problems</li>
+            </ul>
+        <img src="images/medalarm_imgs/usertesting.png" style="width:500px">
+        <p>After incorporating the user feedback we received, we designed the rest of our screens
+          using <a href="https://marvelapp.com/4gbje43" target="_blank">Marvel</a> and connected the user flow in a way that was clear. We made sure to include
+          all the features mentioned above and decided on a soft and warm color scheme
+          that would be easy on our user's eyes. We also provided help documentation and included
+          a Q&A if users got stuck at any point. We made sure that each button was clickable and
+          that there was confirmation messages for adding or deleting something. </p>
+        <h4 class="blue">Sample screens: </h4>
+        <img src="images/medalarm_imgs/1.png" style="width:800px">
+        <img src="images/medalarm_imgs/2.png" style="width:800px">
+      </div>
+    </div>
+
+    <div class="row-text">
+      <div class="column-text">
+        <h3 class="heading">Competitive Analysis</h3>
+      </div>
+      <div class="column-text">
+        <p>We compared our app design to other others that have the same function as ours.
+          We performed a competitive analysis to see what similar features they offered, as
+          well as what features makes our app unique.</p>
+        <img src="images/medalarm_imgs/competitor1.png" style="width:700px">
+        <img src="images/medalarm_imgs/competitor2.png" style="width:700px">
+        <img src="images/medalarm_imgs/chart.png" style="width:700px">
+        <p>This table shows a comparison of our app design with other existing apps.
+          We chose these factors to compare because these were the factors that
+          we decided were the most important for our target audience, the elderly.
+          The main point of these apps are to <b>keep track of medicine</b> and have a
+          reminder function for appointments. However, <b>sound notifications and alarms</b>
+          are crucial as our users might misplace their phones. <b>Multiple user support</b>
+          is a good feature because as our users are of old age, they may be quite
+          forgetful, so having a caretaker with access to their account can be very
+          helpful. We designed our interface especially for the elderly, so we offer
+          font size adjustment and higher contrast settings. We also added a QR code
+          feature so users can <b>easily input their medicine</b> by simply taking a picture
+          of the QR code, rather than typing out all the tedious information that comes
+          with a bottle of medicine.
+          </p>
+      </div>
+    </div>
+
+    <div class="row-text">
+      <div class="column-text">
+        <h3 class="heading">Final Design</h3>
+      </div>
+      <div class="column-text">
+        <div>
+          <p>Med Alarm is an elderly friendly app that helps record your medicine
+            list and doctor appointments by utilizing alarms. Users can connect it
+            with their caretakers, family members, and doctors.</p>
+          <a href="https://drive.google.com/file/d/1YRnccA5b4hQZSjH2nqVlcgq8CjE1c2Q4/view?usp=sharing" target="_blank">
+            <button class="btn btn-outline-info final">Final Presentation</button></a>
+          <a href="https://drive.google.com/file/d/1wxhjvtQ2v-wgwPSWK3AGcoMCMpws5_dq/view?usp=sharing" target="_blank">
+            <button class="btn btn-outline-info final">Demo</button></a>
+            <a href="https://drive.google.com/file/d/1lfxsSZj6A_GQCu62buS1QPmFCTE2ls7U/view?usp=sharing" target="_blank">
+              <button class="btn btn-outline-info final">Commercial</button></a>
+        </div>
+        <iframe src="https://marvelapp.com/4gbje43?emb=1&iosapp=false&frameless=false"
+          width="452" height="601" allowTransparency="true" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <div>
+      <a href="index.html">
+        <button class="btn btn-outline-secondary back">← Back to Work</button></a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="text-center">
+        <a class="icon" href="mailto: fgwong@ucsd.edu" target="_blank"><img src="images/contact_imgs/email.png" alt="Email" style="width: 33px"></a>
+        <a class="icon" href="https://www.linkedin.com/in/fiona-g-wong/" target="_blank"><img src="images/contact_imgs/linkedin.png" alt="LinkedIn" style="width: 30px"></a>
+        <a class="icon" href="https://github.com/wongfiona" target="_blank"><img src="images/contact_imgs/github.png" alt="Github" style="width: 33px"></a>
+      </div>
+      <div>
+        <p> © Fiona Wong 2019 </p>
+      </div>
+    </footer>
+
+  </body>
+</html>

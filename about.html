@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Fiona Wong</title>
+    <link rel="icon" href="images/icon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,88 +11,110 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
+
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.html">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-sm bg-white navbar-light sticky-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="images/icon.png" style="width: 50px"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <!-- Jumbotron -->
+    <!-- Jumbotron
     <div class="jumbotron">
       <div class="container text-center">
         <h1>Fiona Wong</h1>
         <p>Aspiring UI / UX designer</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- About Me -->
     <div class="container-fluid about">
-      <h2>About Me</h2>
-      <img class="profile rounded" src="images/fiona.jpg" alt="Fiona">
-      <p class="about-text">Hi! My name is Fiona and I'm an upcoming senior at UCSD, majoring in Cognitive
-        Science with a specialization in Design & Interaction. I'm also minoring in Psychology.</p>
+        <h2>Hi, I'm Fiona!</h2>
+        <img class="profile rounded" src="images/about_imgs/seattle.png" alt="Fiona">
+        <p class="about-text">I'm an upcoming senior at UCSD, majoring in Cognitive
+          Science with a specialization in Design & Interaction. I'm also minoring in Psychology.</p>
+
+        <br>
+
+        <h4 class="blue">Courses</h4>
+        <p class="about-text">I've taken many project classes at UCSD that allowed me to work with a
+          team and create an app while going through the design process. Some
+          relevant courses I've taken are:</p>
+        <ul>
+          <li>COGS 120 - Interaction Design</li>
+          <li>DSGN 1 - The Design of Everyday Things</li>
+          <li>COGS 187A - Usability & Information Architecture</li>
+        </ul>
+
+        <br>
+
+        <h4 class="blue">Skills</h4>
+        <p class="about-text">Some skills I've acquired from taking these classes include:</p>
+        <ul>
+          <li>Needfinding</li>
+          <li>Persona development</li>
+          <li>Storyboarding</li>
+          <li>Paper prototyping</li>
+          <li>Wireframing</li>
+          <li>User testing</li>
+          <li>HTML, CSS, Bootstrap</li>
+        </ul>
+        <p class="about-text">I hope to utilize these skills I've learned and further develop them
+          while working on new projects!</p>
 
       <br>
 
-      <h4>Courses</h4>
-      <p class="about-text">I've taken many project classes at UCSD that allowed me to work with a
-        team and create an app while going through the design process. Some
-        relevant courses I've taken are:</p>
-      <ul>
-        <li>COGS 120 - Interaction Design</li>
-        <li>DSGN 1 - The Design of Everyday Things</li>
-        <li>COGS 187A - Usability & Information Architecture</li>
-      </ul>
-
-      <br>
-
-      <h4>Skills</h4>
-      <p class="about-text">Some skills I've acquired from taking these classes include:</p>
-      <ul>
-        <li>Needfinding</li>
-        <li>Persona development</li>
-        <li>Storyboarding</li>
-        <li>Paper prototyping</li>
-        <li>Wireframing</li>
-        <li>User testing</li>
-        <li>HTML, CSS, JavaScript</li>
-      </ul>
-      <p class="about-text">I hope to utilize these skills I've learned and further develop them
-        while working on new projects!</p>
-
-      <br>
-
-      <h4>Hobbies</h4>
-      <p class="about-text">In my free time, I enjoy exploring new places and trying new food!</p>
-      <img class="img-fluid rounded about-img" src="images/deer.jpg" alt="Deer" style="width: 225px">
-      <img class="img-fluid rounded about-img" src="images/ramen.jpg" alt="Ramen" style="width: 225px">
-      <img class="img-fluid rounded about-img" src="images/gates.jpg" alt="Gates" style="width: 225px">
-      <img class="img-fluid rounded about-img" src="images/takoyaki.jpg" alt="Takoyaki" style="width: 225px">
-      <img class="img-fluid rounded about-img" src="images/castle.jpg" alt="Castle" style="width: 225px">
-      <img class="img-fluid rounded about-img" src="images/temple.jpg" alt="Temple" style="width: 225px">
+      <h4 class="blue">Hobbies</h4>
+      <p class="about-text">In my free time, I enjoy exploring new places and trying new food.
+        Here are some of my recent adventures in Seattle and Japan!</p>
+      <div class="hobby-row">
+        <div class="hobby-column">
+          <img class="img-fluid rounded" src="images/about_imgs/market.jpg" alt="Market" style="width: 225px">
+        </div>
+        <div class="hobby-column">
+          <img class="img-fluid rounded" src="images/about_imgs/deer.jpg" alt="Deer" style="width: 225px">
+          <img class="img-fluid rounded" src="images/about_imgs/ramen.jpg" alt="Ramen" style="width: 225px">
+        </div>
+        <div class="hobby-column">
+          <img class="img-fluid rounded" src="images/about_imgs/takoyaki.jpg" alt="Takoyaki" style="width: 225px">
+          <img class="img-fluid rounded" src="images/about_imgs/gates.jpg" alt="Gates" style="width: 225px">
+        </div>
+        <div class="hobby-column">
+          <img class="img-fluid rounded" src="images/about_imgs/castle.jpg" alt="Castle" style="width: 225px">
+          <img class="img-fluid rounded" src="images/about_imgs/temple.jpg" alt="Temple" style="width: 225px">
+        </div>
+        <div class="hobby-column">
+          <img class="img-fluid rounded" src="images/about_imgs/library.jpg" alt="Library" style="width: 225px">
+        </div>
+      </div>
     </div>
 
     <br>
 
     <!-- Footer -->
     <footer class="container-fluid">
-      <p><img class="img-fluid" src="images/email.png" alt="Email" style="width: 20px"> fgwong@ucsd.edu</p>
-      <p><img class="img-fluid" src="images/github.png" alt="Github" style="width: 23px">
-        <a class="link" href="https://github.com/wongfiona" target="_blank"> github.com/wongfiona</p></a>
+      <div class="text-center">
+        <a class="icon" href="mailto: fgwong@ucsd.edu" target="_blank"><img src="images/contact_imgs/email.png" alt="Email" style="width: 33px"></a>
+        <a class="icon" href="https://www.linkedin.com/in/fiona-g-wong/" target="_blank"><img src="images/contact_imgs/linkedin.png" alt="LinkedIn" style="width: 30px"></a>
+        <a class="icon" href="https://github.com/wongfiona" target="_blank"><img src="images/contact_imgs/github.png" alt="Github" style="width: 33px"></a>
+      </div>
+      <div>
+        <p> © Fiona Wong 2019 </p>
+      </div>
     </footer>
 
   </body>

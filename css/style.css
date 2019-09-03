@@ -1,40 +1,42 @@
-.jumbotron {
-  background-image: url("../images/sunflowers.jpg");
-  background-position: center;
+/* Remove hyperlink when mouse hovers over element */
+a:hover {
+  text-decoration: none;
 }
 
-.jumbotron h1, p {
-  color: white;
-  text-align: left;
+/* Resume color */
+.blue {
+  color: #367DA2;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.jumbotron h1, h6, p, li {
+  color: black;
 }
 
 .jumbotron h1 {
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 
-.profile {
-  width: 750px;
-  float: right;
-  margin-top: 15px;
-  margin-left: 30px;
-  margin-right: 15px;
-}
+/* Grow effect for cards */
+.effect {
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: transform;
+   transition-property: transform;
+ }
 
-.about-img {
-  margin: 2px;
-}
-
-.about {
-  padding: 10px 20px;
-}
-
-.link,
-.about-text,
-.project-text {
-  color: black;
-}
+.effect:hover {
+   -webkit-transform: scale(1.06);
+   transform: scale(1.06);
+ }
 
 .alarmio {
   background-color: lightsteelblue;
@@ -48,7 +50,8 @@
   background-color: #deb0ba;
 }
 
-.project-title {
+.card-title {
+  color: black;
   padding-top: 20px;
 }
 
@@ -56,13 +59,173 @@
   padding-bottom: 10px;
 }
 
-.project-text {
-  padding-top: 25px;
+.title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #348496;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
+/* Alarmio page*/
+.alarmio-row {
+  background-color: lightsteelblue;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  padding-right: 180px;
+}
+
+.float-right {
+  float: center;
+  margin-left: 50px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 50px;
+}
+
+.column-phone {
+  flex: 50%;
+  padding: 10px;
+}
+
+.grid-container {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-gap: 5px;
+  justify-content: space-evenly;
+}
+
+.grid-container h5, .heading {
+  font-weight: bold;
+  color: black;
+}
+
+.box{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.row-text {
+  display: flex;
+}
+
+.column-text {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-right: 200px;
+  line-height: 200%;
+}
+
+.heading {
+  margin-left: 100px;
+}
+
+.subtitle {
+  padding-top: 30px;
+}
+
+.prototype-img {
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+
+.final-img {
+  padding-bottom: 40px;
+}
+
+.screens {
+  padding: 10px;
+}
+
+.alarmio-btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.back {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+/* Dining page */
+.dining-row {
+  background-color: #bdb0de;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.dining-img {
+  padding: 20px 40px;
+  margin-left: 30px;
+}
+
+.final {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+/* MedAlarm page */
+.medalarm-row {
+  background-color: #deb0ba;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.medalarm-img {
+  
+}
+
+/* About page */
+.profile {
+  width: 450px;
+  float: right;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.about {
+  padding: 50px 200px;
+}
+
+.about-text {
+  color: black;
+}
+
+.hobby-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create five equal columns that sits next to each other */
+.hobby-column {
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 3px;
+}
+
+.hobby-column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Resume page */
 .resume {
-  width: 1000px;
-  height: 1000px;
+  width: 800px;
+  height: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,10 +233,16 @@
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
-  padding: 25px;
+  padding-top: 40px;
+  padding-bottom: 5px;
 }
 
 footer p, .contact {
   color: black;
   text-align: center;
+  padding: 20px;
+}
+
+.icon {
+  padding: 10px;
 }
