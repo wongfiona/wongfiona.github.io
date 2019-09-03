@@ -8,8 +8,14 @@ a:hover {
   color: #367DA2;
 }
 
+.navbar-brand {
+  margin-left: -10px;
+}
+
 .jumbotron {
   background-color: white;
+  margin-top: -15px;
+  margin-bottom: -5px;
 }
 
 .jumbotron h1, h6, p, li {
@@ -20,6 +26,11 @@ a:hover {
   text-transform: uppercase;
   font-size: 50px;
   letter-spacing: 3px;
+}
+
+.jumbotron h6 {
+  padding: 10px;
+  letter-spacing: 2px;
 }
 
 /* Grow effect for cards */
