@@ -56,6 +56,12 @@ a:hover {
    width: 50%;
  }
 
+ .card-deck {
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-bottom: 30px;
+ }
+
 .card-title {
   color: black;
   padding-top: 20px;
@@ -172,6 +178,11 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.next {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
 /* Dining page */
 .dining-row {
   background-color: #bdb0de;
@@ -180,8 +191,8 @@ a:hover {
 }
 
 .dining-img {
-  padding: 20px 40px;
-  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .final {
@@ -249,7 +260,7 @@ a:hover {
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 5px;
 }
 
