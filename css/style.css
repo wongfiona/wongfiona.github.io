@@ -137,13 +137,17 @@ a:hover {
 
 .row-text {
   display: flex;
+
 }
 
 .column-text {
   padding-top: 50px;
   padding-bottom: 10px;
-  padding-right: 200px;
   line-height: 200%;
+}
+
+.pad-right {
+  padding-right: 200px;
 }
 
 .heading {
@@ -155,11 +159,13 @@ a:hover {
 }
 
 .prototype-img {
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .final-img {
+  padding-top: 10px;
   padding-bottom: 40px;
 }
 
@@ -210,6 +216,10 @@ a:hover {
 .medalarm-img {
   margin-top: 35px;
   margin-bottom: 50px;
+}
+
+.interface {
+  margin-right: 150px;
 }
 
 /* About page */
