@@ -100,14 +100,6 @@ a:hover {
   padding-right: 180px;
 }
 
-.parallax {
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .float-right {
   float: center;
   margin-left: 50px;
