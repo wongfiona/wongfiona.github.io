@@ -299,14 +299,14 @@ footer p, .contact {
   padding: 10px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="card-"] {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 768px) {
   /* For tablets, laptops, desktops */
   .card-deck {
     padding: 30px 90px;
