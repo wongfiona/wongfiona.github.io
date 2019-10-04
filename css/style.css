@@ -57,9 +57,12 @@ a:hover {
  }
 
  .card-deck {
-   margin-left: 90px;
-   margin-right: 90px;
-   margin-bottom: 30px;
+   /*margin-left: 90px;
+   margin-right: 180px;
+   margin-bottom: 30px;*/
+   margin-left: 5px;
+   padding: 30px 90px;
+   padding-top: 0px;
  }
 
 .card-title {
@@ -300,22 +303,38 @@ footer p, .contact {
 }
 
 /* For mobile phones: */
-[class*="col-"] {
+[class*="card-"] {
   width: 100%;
 }
 
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .card-1 {width: 8.33%;}
+  .card-2 {width: 16.66%;}
+  .card-3 {width: 25%;}
+  .card-4 {width: 33.33%;}
+  .card-5 {width: 41.66%;}
+  .card-6 {width: 50%;}
+  .card-7 {width: 58.33%;}
+  .card-8 {width: 66.66%;}
+  .card-9 {width: 75%;}
+  .card-10 {width: 83.33%;}
+  .card-11 {width: 91.66%;}
+  .card-12 {width: 100%;}
+}
+
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  /* For desktop:*/
+  .card-1 {width: 8.33%;}
+  .card-2 {width: 16.66%;}
+  .card-3 {width: 25%;}
+  .card-4 {width: 33.33%;}
+  .card-5 {width: 41.66%;}
+  .card-6 {width: 50%;}
+  .card-7 {width: 58.33%;}
+  .card-8 {width: 66.66%;}
+  .card-9 {width: 75%;}
+  .card-10 {width: 83.33%;}
+  .card-11 {width: 91.66%;}
+  .card-12 {width: 100%;}
 }
