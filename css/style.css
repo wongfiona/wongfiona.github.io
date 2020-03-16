@@ -19,7 +19,7 @@ body {
 .jumbotron {
   background-color: white;
   margin-top: -15px;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
 }
 
 .jumbotron h1, h6, p, li {
@@ -34,7 +34,7 @@ body {
 }
 
 .jumbotron h6 {
-  padding: 10px;
+  padding-top: 10px;
   letter-spacing: 2px;
 }
 
@@ -316,20 +316,56 @@ footer p {
     width: 100%;
   }
 
+  .work {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about {
+    padding: 10px 80px;
+  }
+
+  .hobby-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   footer p {
     margin-left: 30px;
   }
 
+  footer img {
+    margin-left: 70px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets */
+  [class*="card-"] {
+    width: 100%;
+  }
+
+  .work {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer p {
+    margin-left: 100px;
+  }
+
   .icon {
-    margin-right: 30px;
     padding-left: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* For tablets, laptops, desktops */
+/* For desktop */
   .card-deck {
-    padding: 30px 90px;
+    padding: 10px 90px;
     padding-top: 0px;
   }
 }
