@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -54,30 +55,44 @@
     <!-- Jumbotron -->
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>Fiona Wong</h1>
-        <h6> UI / UX designer </h6>
+          <h1>Fiona Wong</h1>
+          <h6> UI / UX designer </h6>
       </div>
     </div>
 
     <!-- Projects card deck -->
     <div class="container-fluid text-center">
       <div class="card-deck">
+        <!-- Santorini -->
+        <div class="card">
+          <a href="santorini.html">
+            <div class="card-body">
+            <img class="effect center img-fluid" src="images/santorini_imgs/santorini-desktop.png" alt="Santorini" style="width:500px;">
+              <h4 class="card-title">Santorini Website Redesign</h4>
+              <p>Redesigned Santorini Island Grill's mobile & desktop website</p>
+            </div>
+          </a>
+        </div>
+
+
         <!-- Alarmio -->
-        <div class="card alarmio effect">
+        <div class="card">
           <a href="alarmio.html">
             <div class="card-body">
-              <img class="center img-fluid" src="images/alarmio_imgs/alarmio.png" alt="Alarmio" style="width:400px;">
+              <img class="effect center img-fluid" src="images/alarmio_imgs/alarmio2.png" alt="Alarmio" style="width:500px;">
               <h4 class="card-title">Alarmio</h4>
               <p>Alarm, weather, and routes all in one app</p>
             </div>
           </a>
         </div>
+      </div>
 
+      <div class="card-deck">
         <!-- Dining -->
-        <div class="card dining effect">
+        <div class="card">
           <a href="dining.html">
             <div class="card-body">
-              <img class="center img-fluid" src="images/dining_imgs/dining.png" alt="Dining section" style="width: 400px">
+              <img class="effect center img-fluid" src="images/dining_imgs/dining2.png" alt="Dining section" style="width: 500px">
               <h4 class="card-title">UCSD App: Dining</h4>
               <p>Redesigning the dining section</p>
             </div>
@@ -85,10 +100,10 @@
         </div>
 
         <!-- MedAlarm -->
-        <div class="card medalarm effect">
+        <div class="card">
           <a href="medalarm.html">
             <div class="card-body">
-              <img class="center img-fluid" src="images/medalarm_imgs/medalarm.png" alt="MedAlarm" style="width:400px;">
+              <img class="effect center img-fluid" src="images/medalarm_imgs/medalarm-logo.png" alt="MedAlarm" style="width:500px;">
               <h4 class="card-title">Med Alarm</h4>
               <p>Medical reminder app for the elderly</p>
             </div>
@@ -97,17 +112,16 @@
       </div>
     </div>
 
-    <br><br>
-
     <!-- Footer -->
     <footer class="container-fluid">
-      <div class="text-center">
-        <a class="icon" href="mailto: fgwong@ucsd.edu" target="_blank"><img src="images/contact_imgs/email.png" alt="Email" style="width: 33px"></a>
-        <a class="icon" href="https://www.linkedin.com/in/wong-fiona/" target="_blank"><img src="images/contact_imgs/li.png" alt="LinkedIn" style="width: 33px"></a>
-        <a class="icon" href="https://github.com/wongfiona" target="_blank"><img src="images/contact_imgs/github.png" alt="Github" style="width: 33px"></a>
-      </div>
-      <div>
-        <p> © Fiona Wong 2019 </p>
+      <div class="row">
+        <div class="col">
+          <p style="float-left;"> © Fiona Wong 2020 </p>
+        </div>
+        <div class="col">
+          <a style="float:right;" class="icon" href="https://www.linkedin.com/in/wong-fiona/" target="_blank"><img src="images/contact_imgs/li.png" alt="LinkedIn" style="width: 20px"></a>
+          <a style="float:right;" href="mailto: wong.fiona.11@gmail.com" target="_blank"><img src="images/contact_imgs/email.png" alt="Email" style="width: 20px"></a>
+        </div>
       </div>
     </footer>
 

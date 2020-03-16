@@ -3,6 +3,10 @@ a:hover {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 /* Resume color */
 .blue {
   color: #367DA2;
@@ -24,6 +28,7 @@ a:hover {
 
 .jumbotron h1 {
   text-transform: uppercase;
+  font-weight: bold;
   font-size: 50px;
   letter-spacing: 3px;
 }
@@ -56,19 +61,22 @@ a:hover {
    width: 50%;
  }
 
- /* .card-deck {
-   margin-left: 20px;
-   padding: 30px 90px;
-   padding-top: 0px;
- } */
+ .card {
+   border: none;
+ }
 
 .card-title {
   color: black;
   padding-top: 20px;
+  font-weight: bold;
+}
+
+.santorini {
+  background-color: #98B9EB;
 }
 
 .alarmio {
-  background-color: lightsteelblue;
+  background-color: #BDD8EC;
 }
 
 .dining {
@@ -90,15 +98,18 @@ a:hover {
 
 /* Alarmio page*/
 .alarmio-row {
-  background-color: lightsteelblue;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
-.row {
+.alarmio-background {
+  background-size: cover;
+}
+
+/*.row {
   display: flex;
   padding-right: 180px;
-}
+}*/
 
 .float-right {
   float: center;
@@ -137,7 +148,6 @@ a:hover {
 
 .row-text {
   display: flex;
-
 }
 
 .column-text {
@@ -158,8 +168,13 @@ a:hover {
   padding-top: 30px;
 }
 
+.storyboard {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 .prototype-img {
-  margin-left: 20px;
+  margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -186,7 +201,6 @@ a:hover {
 
 /* Dining page */
 .dining-row {
-  background-color: #bdb0de;
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -207,7 +221,6 @@ a:hover {
 
 /* MedAlarm page */
 .medalarm-row {
-  background-color: #deb0ba;
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -284,25 +297,33 @@ a:hover {
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: #f2f2f2;
-  padding-top: 50px;
-  padding-bottom: 5px;
+  background-color: #fdfdfd;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-footer p, .contact {
-  color: black;
-  text-align: center;
-  padding: 20px;
+footer p {
+  margin-left: 140px;
 }
 
 .icon {
-  padding: 10px;
+  margin-right: 150px;
+  padding-left: 10px;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
   [class*="card-"] {
     width: 100%;
+  }
+
+  footer p {
+    margin-left: 30px;
+  }
+
+  .icon {
+    margin-right: 30px;
+    padding-left: 10px;
   }
 }
 
@@ -312,6 +333,4 @@ footer p, .contact {
     padding: 30px 90px;
     padding-top: 0px;
   }
-}
-
 }
