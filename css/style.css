@@ -62,7 +62,7 @@ body {
  }
 
  .card {
-   border: none;
+   border: none!important;
  }
 
 .card-title {
@@ -106,10 +106,10 @@ body {
   background-size: cover;
 }
 
-/*.row {
+.row {
   display: flex;
   padding-right: 180px;
-}*/
+}
 
 .float-right {
   float: center;
@@ -307,7 +307,6 @@ footer p {
 }
 
 .icon {
-  margin-right: 150px;
   padding-left: 10px;
 }
 
