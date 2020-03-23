@@ -3,6 +3,10 @@ a:hover {
   text-decoration: none;
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -94,6 +98,11 @@ body {
   color: #348496;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+/* Santorini page*/
+.spacing {
+  line-height: 1.65em;
 }
 
 /* Alarmio page*/
@@ -316,7 +325,7 @@ footer p {
     width: 100%;
   }
 
-  .work {
+  #work {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -348,7 +357,7 @@ footer p {
     width: 100%;
   }
 
-  .work {
+  #work {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -367,5 +376,10 @@ footer p {
   .card-deck {
     padding: 10px 90px;
     padding-top: 0px;
+  }
+
+  #work {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
