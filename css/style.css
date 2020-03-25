@@ -105,6 +105,25 @@ body p, li {
 }
 
 /* Santorini page*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("images/santorini_imgs/santorini-banner.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .spacing {
   line-height: 1.65em;
 }
