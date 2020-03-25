@@ -105,11 +105,6 @@ body p, li {
 }
 
 /* Santorini page*/
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-
 .parallax {
   /* The image used */
   background-image: url("images/santorini_imgs/santorini-banner.png");
@@ -136,11 +131,6 @@ body p, li {
 }
 
 /* Alarmio page*/
-.alarmio-row {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
 .alarmio-background {
   background-size: cover;
 }
@@ -173,7 +163,7 @@ body p, li {
   justify-content: space-evenly;
 }
 
-.grid-container h5, .heading {
+.grid-container h5 {
   font-weight: bold;
   color: black;
 }
@@ -196,11 +186,20 @@ body p, li {
 }
 
 .pad-right {
-  padding-right: 125px;
+  padding-right: 100px;
+}
+
+.container-fluid {
+  align-items: flex-start;
 }
 
 .heading {
   margin-left: 100px;
+  font-weight: bold;
+  /*color: #367DA2;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
 }
 
 .subtitle {
@@ -239,11 +238,6 @@ body p, li {
 }
 
 /* Dining page */
-.dining-row {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
 .dining-img {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -259,11 +253,6 @@ body p, li {
 }
 
 /* MedAlarm page */
-.medalarm-row {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
 .medalarm-img {
   margin-top: 35px;
   margin-bottom: 50px;
