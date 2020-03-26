@@ -293,14 +293,15 @@ footer {
 }
 
 footer p {
-  margin-left: 140px;
+  margin-left: 100px;
 }
 
 .icon {
-  padding-left: 10px;
+  padding-right: 100px;
+  margin-left: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones */
   [class*="card-"] {
     width: 100%;
@@ -337,7 +338,7 @@ footer p {
   }
 
   .carousel {
-    display: inline;
+    display: none;
   }
 
   .back {
@@ -369,7 +370,7 @@ footer p {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* For tablets */
 [class*="card-"] {
     width: 100%;
@@ -381,15 +382,15 @@ footer p {
   }
 
   footer p {
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .icon {
-    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 /* For desktop */
   .card-deck {
     padding: 10px 90px;
