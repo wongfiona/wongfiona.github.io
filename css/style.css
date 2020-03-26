@@ -137,7 +137,6 @@ body p, li {
 
 .row {
   display: flex;
-  padding-right: 180px;
 }
 
 .float-right {
