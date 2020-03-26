@@ -326,6 +326,10 @@ footer p {
     padding-right: 20px;
   }
 
+  .row-text, .grid-container {
+    flex-direction: column;
+  }
+
   .about {
     padding: 10px 80px;
   }
