@@ -311,7 +311,21 @@ footer p {
   }
 
   .heading {
-    margin-left: 0;
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+
+  .pad-right {
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .back {
+    margin-left: 10px;
+  }
+
+  .next {
+    margin-right: 10px;
   }
 
   .about {
@@ -326,11 +340,11 @@ footer p {
   }
 
   footer p {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   footer img {
-    margin-left: 70px;
+    margin-left: 10px;
   }
 
 }
