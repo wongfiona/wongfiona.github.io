@@ -109,20 +109,6 @@ body p, li {
 }
 
 /* Santorini page*/
-.parallax {
-  /* The image used */
-  background-image: url("images/santorini_imgs/santorini-banner.png");
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .spacing {
   line-height: 1.65em;
 }
@@ -314,14 +300,6 @@ body p, li {
   }
 }
 
-/* Resume page */
-.resume {
-  width: 800px;
-  height: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #fdfdfd;
@@ -346,12 +324,6 @@ footer p {
   #work {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .heading {
-    margin-left: 100px;
-    font-weight: bold;
-    position: relative;
   }
 
   .about {
@@ -384,12 +356,6 @@ footer p {
   #work {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .heading {
-    margin-left: 100px;
-    font-weight: bold;
-    position: relative;
   }
 
   footer p {
