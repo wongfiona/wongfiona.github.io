@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Remove hyperlink when mouse hovers over element */
 a:hover {
   text-decoration: none;
@@ -155,23 +159,17 @@ body p, li {
 }
 
 .grid-container {
-  padding: 50px;
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 150px 200px 150px 300px 150px;
   grid-gap: 5px;
   justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-left: 50px;
 }
 
 .grid-container h5 {
   font-weight: bold;
-  color: black;
-}
-
-.box {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.7;
 }
 
 .row-text {
@@ -182,6 +180,16 @@ body p, li {
   padding-top: 50px;
   padding-bottom: 10px;
   line-height: 200%;
+}
+
+.col-sm-4 {
+  width: 25%;
+  float: left;
+}
+
+.col-sm-8 {
+  width: 75%;
+  float: left;
 }
 
 .pad-right {
