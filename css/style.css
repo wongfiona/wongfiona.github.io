@@ -193,6 +193,10 @@ body p, li {
   align-items: flex-start;
 }
 
+.img-fluid {
+  text-align: center;
+}
+
 .heading {
   margin-left: 100px;
   font-weight: bold;
