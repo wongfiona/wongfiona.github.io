@@ -139,10 +139,6 @@ body p, li {
   background-size: cover;
 }
 
-.row {
-  display: flex;
-}
-
 .float-right {
   float: center;
   margin-left: 50px;
@@ -151,11 +147,6 @@ body p, li {
 .float-left {
   float: left;
   margin-right: 50px;
-}
-
-.column-phone {
-  flex: 50%;
-  padding: 10px;
 }
 
 .grid-container {
@@ -192,6 +183,12 @@ body p, li {
   float: left;
 }
 
+.row-text::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .pad-right {
   padding-right: 100px;
 }
@@ -207,7 +204,6 @@ body p, li {
 .heading {
   margin-left: 100px;
   font-weight: bold;
-  /*color: #367DA2;*/
   position: -webkit-sticky;
   position: sticky;
   top: 5rem;
@@ -269,10 +265,6 @@ body p, li {
   margin-bottom: 50px;
 }
 
-.interface {
-  margin-right: 150px;
-}
-
 /* About page */
 .profile {
   width: 450px;
@@ -285,10 +277,6 @@ body p, li {
 
 .about {
   padding: 50px 200px;
-}
-
-.about-text {
-  color: black;
 }
 
 .hobby-row {
@@ -360,6 +348,12 @@ footer p {
     padding-right: 20px;
   }
 
+  .heading {
+    margin-left: 100px;
+    font-weight: bold;
+    position: relative;
+  }
+
   .about {
     padding: 10px 80px;
   }
@@ -383,13 +377,19 @@ footer p {
 
 @media only screen and (min-width: 768px) {
   /* For tablets */
-  [class*="card-"] {
+[class*="card-"] {
     width: 100%;
   }
 
   #work {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .heading {
+    margin-left: 100px;
+    font-weight: bold;
+    position: relative;
   }
 
   footer p {
