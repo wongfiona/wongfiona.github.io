@@ -159,22 +159,6 @@ body p, li {
   line-height: 200%;
 }
 
-.col-sm-4 {
-  width: 25%;
-  float: left;
-}
-
-.col-sm-8 {
-  width: 75%;
-  float: left;
-}
-
-.row-text::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .pad-right {
   padding-right: 100px;
 }
@@ -324,6 +308,10 @@ footer p {
 
   .row-text {
     flex-direction: column;
+  }
+
+  .heading {
+    margin-left: 0;
   }
 
   .about {
