@@ -179,10 +179,6 @@ body p, li {
   padding-right: 100px;
 }
 
-.container-fluid {
-  align-items: flex-start;
-}
-
 .img-fluid {
   text-align: center;
 }
@@ -326,7 +322,7 @@ footer p {
     padding-right: 20px;
   }
 
-  .row-text, .grid-container {
+  .row-text {
     flex-direction: column;
   }
 
