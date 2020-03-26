@@ -145,8 +145,13 @@ body p, li {
   margin-left: 50px;
 }
 
-.grid-container h5 {
+.grid-container h5,
+.grid-container-mobile h5 {
   font-weight: bold;
+}
+
+.grid-container-mobile {
+  display: none;
 }
 
 .row-text {
@@ -306,6 +311,17 @@ footer p {
     padding-right: 20px;
   }
 
+  .grid-container {
+    display: none;
+  }
+
+  .grid-container-mobile {
+    display: block;
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
   .row-text {
     flex-direction: column;
   }
@@ -318,6 +334,10 @@ footer p {
   .pad-right {
     padding-right: 10px;
     padding-top: 10px;
+  }
+
+  .carousel {
+    display: inline;
   }
 
   .back {
