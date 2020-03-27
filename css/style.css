@@ -264,22 +264,6 @@ body p, li {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of five columns */
-@media screen and (max-width: 800px) {
-  .hobby-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .hobby-column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #fdfdfd;
@@ -346,14 +330,21 @@ footer p {
   }
 
   .about {
-    padding: 10px 80px;
+    padding: 10px 10px;
+    padding-right: 20px;
+    margin-left: 10px;
   }
 
-  .hobby-row {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  .profile {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of five columns */
+  .hobby-column {
+    flex: 50%;
+    max-width: 50%;
   }
 
   footer p {
@@ -402,6 +393,20 @@ footer p {
   .pad-right {
     padding-right: 0px;
     padding-top: 10px;
+  }
+
+  .about {
+    padding: 10px 10px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .profile {
+    float: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   footer p {
