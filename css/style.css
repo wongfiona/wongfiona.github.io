@@ -139,6 +139,7 @@ body p, li {
   display: grid;
   grid-template-columns: 150px 200px 150px 300px 150px;
   justify-content: space-evenly;
+  grid-column-gap: 10px;
   padding-top: 100px;
   padding-bottom: 50px;
   margin-left: 50px;
@@ -307,17 +308,17 @@ footer p {
   }
 
   .grid-container {
-    grid-template-columns: 400px;
-    margin-left: 0px;
+    grid-template-columns: auto;
+    margin-left: 20px;
   }
 
   .row-text {
     flex-direction: column;
+    margin-left: 10px;
   }
 
   .heading {
     margin-left: 0px;
-    padding-top: 15px;
   }
 
   .pad-right {
@@ -331,10 +332,17 @@ footer p {
 
   .back {
     margin-left: 10px;
+    margin-bottom: 30px;
   }
 
   .next {
     margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .float-right {
+    float: center;
+    margin-left: 10px;
   }
 
   .about {
@@ -349,16 +357,17 @@ footer p {
   }
 
   footer p {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
-  footer img {
+  .icon {
+    padding-right: 10px;
     margin-left: 10px;
   }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   /* For tablets */
 [class*="card-"] {
     width: 100%;
@@ -366,15 +375,42 @@ footer p {
 
   #work {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .row-text {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .col-sm-8 {
+    max-width: 100%;
+  }
+
+  .heading {
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+
+  .pad-right {
+    padding-right: 0px;
+    padding-top: 10px;
   }
 
   footer p {
-    margin-left: 10px;
+    margin-left: 100px;
   }
 
   .icon {
     padding-right: 10px;
+    margin-right: 100px;
   }
 }
 
