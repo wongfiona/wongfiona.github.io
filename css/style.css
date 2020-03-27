@@ -138,20 +138,14 @@ body p, li {
 .grid-container {
   display: grid;
   grid-template-columns: 150px 200px 150px 300px 150px;
-  grid-gap: 5px;
   justify-content: space-evenly;
   padding-top: 100px;
   padding-bottom: 50px;
   margin-left: 50px;
 }
 
-.grid-container h5,
-.grid-container-mobile h5 {
+.grid-container h5 {
   font-weight: bold;
-}
-
-.grid-container-mobile {
-  display: none;
 }
 
 .row-text {
@@ -313,14 +307,8 @@ footer p {
   }
 
   .grid-container {
-    display: none;
-  }
-
-  .grid-container-mobile {
-    display: block;
-    padding-top: 30px;
-    margin-left: 15px;
-    margin-right: 10px;
+    grid-template-columns: 400px;
+    margin-left: 0px;
   }
 
   .row-text {
