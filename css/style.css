@@ -102,8 +102,7 @@ body p, li {
 /* Title of projects */
 .title {
   padding-top: 40px;
-  padding-bottom: 40px;
-  color: #348496;
+  color: white;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -121,9 +120,6 @@ body p, li {
 }
 
 /* Alarmio page*/
-.alarmio-background {
-  background-size: cover;
-}
 
 .float-right {
   float: center;
@@ -142,7 +138,8 @@ body p, li {
   grid-column-gap: 10px;
   padding-top: 100px;
   padding-bottom: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .grid-container h5 {
@@ -280,7 +277,7 @@ footer p {
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   /* For mobile phones */
   [class*="card-"] {
     width: 100%;
@@ -312,6 +309,10 @@ footer p {
 
   .carousel {
     display: none;
+  }
+
+  .final-design {
+
   }
 
   .back {
@@ -358,7 +359,7 @@ footer p {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 500px) and (max-width: 992px) {
   /* For tablets */
 [class*="card-"] {
     width: 100%;
@@ -379,6 +380,10 @@ footer p {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  .col-sm-4 {
+    max-width: 100%;
   }
 
   .col-sm-8 {
