@@ -113,10 +113,9 @@ body p, li {
 }
 
 .carousel {
-  margin-left: 100px;
-  margin-right: 100px;
   padding-top: 30px;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Alarmio page*/
@@ -277,7 +276,7 @@ footer p {
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones */
   [class*="card-"] {
     width: 100%;
@@ -296,6 +295,15 @@ footer p {
   .row-text {
     flex-direction: column;
     margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .col-sm-4 {
+    max-width: 100%;
+  }
+
+  .col-sm-8 {
+    max-width: 100%;
   }
 
   .heading {
@@ -309,10 +317,6 @@ footer p {
 
   .carousel {
     display: none;
-  }
-
-  .final-design {
-
   }
 
   .back {
@@ -359,7 +363,7 @@ footer p {
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 992px) {
+@media only screen and (min-width: 7680px) and (max-width: 992px) {
   /* For tablets */
 [class*="card-"] {
     width: 100%;
