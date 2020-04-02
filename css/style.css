@@ -272,36 +272,51 @@ body p, li {
 }
 
 /* About page */
-.profile {
-  width: 450px;
-  float: right;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-
 .about {
+  line-height: 175%;
   padding: 50px 200px;
 }
 
-.hobby-row {
+.about-row {
   display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
 }
 
-/* Create five equal columns that sits next to each other */
-.hobby-column {
-  flex: 20%;
-  max-width: 20%;
-  padding: 0 3px;
+.col-sm-5 {
+  max-width: 40%;
 }
 
-.hobby-column img {
-  margin-top: 5px;
-  vertical-align: middle;
-  width: 100%;
+.about-heading {
+  padding-bottom: 10px;
+}
+
+.about-text {
+  padding-left: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-column-gap: 20px;
+}
+
+.skills-grid h6 {
+  color: gray;
+}
+
+.skills-img {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.attribute {
+  font-size: 12px;
+  color: lightgray;
+}
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: 160px 160px 160px 160px 160px 160px;
+  grid-column-gap: 20px;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -385,20 +400,32 @@ footer p {
 
   .about {
     padding: 10px 10px;
-    padding-right: 20px;
     margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about-row {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .profile {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 20px;
   }
 
-  /* Responsive layout - makes a two column-layout instead of five columns */
-  .hobby-column {
-    flex: 50%;
-    max-width: 50%;
+  .skills-grid {
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 20px;
+  }
+
+  .hobby-grid {
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 20px;
   }
 
   footer p {
@@ -412,7 +439,7 @@ footer p {
 
 }
 
-@media only screen and (min-width: 7680px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   /* For tablets */
 [class*="card-"] {
     width: 100%;
@@ -454,17 +481,25 @@ footer p {
   }
 
   .about {
-    padding: 10px 10px;
-    padding-right: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 10px 80px;
   }
 
   .profile {
-    float: none;
-    margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 20px;
+  }
+
+  .hobby-grid {
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 20px;
   }
 
   footer p {
