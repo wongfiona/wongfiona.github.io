@@ -195,7 +195,6 @@ body p, li {
 
 .column-text {
   padding-top: 50px;
-  padding-bottom: 10px;
   line-height: 200%;
 }
 
@@ -352,6 +351,8 @@ footer p {
   .grid-container {
     grid-template-columns: auto;
     margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
 
   .row-text {
@@ -362,10 +363,12 @@ footer p {
 
   .col-sm-4 {
     max-width: 100%;
+    padding-left: 10px;
   }
 
   .col-sm-8 {
     max-width: 100%;
+    padding-left: 10px;
   }
 
   .heading {
@@ -467,10 +470,12 @@ footer p {
 
   .col-sm-4 {
     max-width: 100%;
+    padding-left: 0px;
   }
 
   .col-sm-8 {
     max-width: 100%;
+    padding-left: 0px;
   }
 
   .heading {
