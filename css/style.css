@@ -41,7 +41,6 @@ body p, li {
 .jumbotron h1 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 50px;
   letter-spacing: 3px;
 }
 
@@ -347,6 +346,7 @@ footer p {
   .grid-container {
     grid-template-columns: auto;
     margin-left: 20px;
+    margin-right: 10px;
     padding-top: 50px;
     padding-bottom: 0px;
   }
