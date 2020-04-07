@@ -338,11 +338,6 @@ footer p {
     width: 100%;
   }
 
-  #work {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .title {
     font-size: 35px;
   }
@@ -452,7 +447,7 @@ footer p {
   }
 
   #work {
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px;
   }
 
