@@ -284,10 +284,6 @@ body p, li {
   padding-bottom: 10px;
 }
 
-.about-text {
-  padding-left: 20px;
-}
-
 .skills-grid {
   display: grid;
   grid-template-columns: auto auto auto;
