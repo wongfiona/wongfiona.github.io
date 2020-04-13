@@ -30,8 +30,9 @@ body p, li {
 
 .jumbotron {
   background-color: white;
-  margin-top: -15px;
   margin-bottom: -10px;
+  margin-left: 200px;
+  margin-right: 100px;
 }
 
 .jumbotron h1, h6, p, li {
@@ -39,14 +40,13 @@ body p, li {
 }
 
 .jumbotron h1 {
-  text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
-.jumbotron h6 {
+.jumbotron h4 {
   padding-top: 10px;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
 }
 
 /* Grow effect for cards */
@@ -311,25 +311,24 @@ body p, li {
 
 .hobby-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: #fdfdfd;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 footer p {
   margin-left: 100px;
-  color: gray;
 }
 
 .icon {
   padding-right: 100px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -435,7 +434,7 @@ footer p {
 
   .icon {
     padding-right: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
 }
