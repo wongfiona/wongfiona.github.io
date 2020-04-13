@@ -47,7 +47,7 @@ body p, li {
 
 .jumbotron h4 {
   padding-top: 10px;
-  /*letter-spacing: 2px;*/
+  letter-spacing: 1px;
 }
 
 /* Grow effect for cards */
