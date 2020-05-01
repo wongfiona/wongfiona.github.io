@@ -24,13 +24,25 @@ body p, li {
   color: #367DA2;
 }
 
+#navbar {
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  background-color: white;
+  z-index: 9999;
+}
+
 .navbar-brand {
-  margin-left: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-transform: capitalize;
 }
 
 .jumbotron {
   background-color: white;
   margin-bottom: -10px;
+  margin-top: 50px;
   /*margin-left: 200px;
   margin-right: 100px;*/
 }
@@ -84,6 +96,9 @@ body p, li {
 
 .santorini {
   background-color: #98B9EB;
+  /* The image used */
+  background-image: url("../images/santorini-imgs/santorini-banner.png");
+  transform: translateZ(-1px) scale(1.09);
 }
 
 .alarmio {
@@ -100,13 +115,24 @@ body p, li {
 
 /* Title of projects */
 .title {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 60px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
 /* Santorini page*/
+.parallax {
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .spacing {
   line-height: 1.65em;
 }
@@ -159,6 +185,85 @@ body p, li {
   display: none;
 }
 
+/* modal images, tap to enlarge */
+.modal-img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal-img:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: rgba(0,0,0,0.75); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 80px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Alarmio page*/
 
 .float-right {
@@ -173,19 +278,29 @@ body p, li {
 
 .grid-container {
   display: grid;
-  margin-left: 100px;
-  margin-right: 100px;
+  /*margin-left: 100px;
+  margin-right: 100px;*/
   grid-template-columns: 125px 200px 160px 300px 150px;
   justify-content: space-evenly;
   grid-column-gap: 10px;
   padding-top: 100px;
   padding-bottom: 50px;
+  padding-left: 0px;
 }
 
 .grid-container h6 {
   color: gray;
   opacity: 80%;
   text-transform: uppercase;
+}
+
+.col-sm-4 {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.col-sm-8 {
+  padding-right: 0px;
 }
 
 .row-text {
@@ -197,16 +312,12 @@ body p, li {
   line-height: 200%;
 }
 
-.pad-right {
-  padding-right: 100px;
-}
-
 .img-fluid {
   text-align: center;
 }
 
 .heading {
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   font-weight: bold;
   position: -webkit-sticky;
   position: sticky;
@@ -239,12 +350,10 @@ body p, li {
 }
 
 .back {
-  margin-left: 100px;
   margin-bottom: 50px;
 }
 
 .next {
-  margin-right: 100px;
   margin-bottom: 50px;
 }
 
@@ -272,7 +381,8 @@ body p, li {
 /* About page */
 .about {
   line-height: 175%;
-  padding: 50px 200px;
+  padding-top: 80px;
+  /*padding: 50px 200px;*/
 }
 
 .about-row {
@@ -322,12 +432,7 @@ footer {
   padding-bottom: 20px;
 }
 
-footer p {
-  margin-left: 100px;
-}
-
 .icon {
-  padding-right: 100px;
   margin-left: 20px;
 }
 
@@ -339,6 +444,10 @@ footer p {
 
   .title {
     font-size: 35px;
+  }
+
+  .parallax {
+    background-attachment: scroll;
   }
 
   .grid-container {

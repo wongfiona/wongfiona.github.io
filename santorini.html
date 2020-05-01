@@ -25,10 +25,10 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right" id="navbar">
+      <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><img src="images/icon.png" style="width: 50px"></a>
+          <a class="navbar-brand" href="index.html"><!--<img src="images/icon.png" style="width: 50px>-->Fiona Wong</a>
         </div>
 
         <!-- Toggler/collapsibe Button -->
@@ -45,418 +45,468 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/file/d/15G_ol-Qnac_-hweE854MagzPOvozPD86/view?usp=sharing" target="_blank">Resume</a>
+              <a class="nav-link" href="https://drive.google.com/file/d/1PtdL4jB6vEcQ3QNNB1CTBJn8y1HLGba5/view?usp=sharing" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <script src="js/nav.js"></script>
 
     <div class="container-fluid">
       <h1 class="text-center title">Santorini Website Redesign</h1>
-      <img class="img-fluid center" src="images/santorini-imgs/santorini-banner.png" style="width:1200px;">
-      <div class="grid-container">
-        <div>
-          <h6>Duration</h6>
-          <p>Jan - Mar 2020 (10 weeks) </p>
-        </div>
-        <div>
-          <h6>Course</h6>
-          <p>COGS 187B - Practicum in Pro Web Design</p>
-        </div>
-        <div>
-          <h6>Role</h6>
-          <p>UI / UX Designer</p>
-        </div>
-        <div>
-          <h6>Skills</h6>
-          <p>User Interviews, Personas, Wireframes, Competitive Analysis, Site Architecture, Prototyping, User Testing</p>
-        </div>
-        <div>
-          <h6>Tools</h6>
-          <p>Figma, Balsamiq</p>
-        </div>
+      <div class="row parallax santorini">
+        <!--<img class="img-fluid center" src="images/santorini-imgs/santorini-banner.png" style="width:100%;">-->
       </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Background</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>
-            <a class="blue underline" href="http://santoriniislandgrill.net/" target="_blank">Santorini Island Grill</a>
-            is a chain Greek restaurant with three locations in San Diego and one in
-            Santa Barbara. We reached out to the president, Takis Vartelas, and
-            offered to redesign the existing desktop and mobile website over the
-            course of 10 weeks. Santorini aims to reflect their motto, <em>"We Speak Fresh"</em>,
-            in their customer service and food options. Their branding implements
-            aesthetics of <b>Greek culture</b>, and is <b>eye-catching, clean and modern</b>.</p>
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Client Survey</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>We first interviewed our client to get a better understanding of their
-            objectives, branding, and information about the restaurant. We compiled a list of
-            questions to ask our client, such as what he would want users to learn about
-            Santorini after visiting the website, his current frustrations with the website,
-            and features he would want to be implemented. We interpreted his answers
-            and came up with a priority list for the redesign, which included:</p>
-          <ul class="spacing">
-            <li>An "About" page to highlight Santorini's history and Greek culture</li>
-            <li>Emphasize freshness in Santorini's food</li>
-            <li>Easier to read menus with more pictures</li>
-            <li>Have a business page for potential investors</li>
-          </ul>
-          <p>Read more about our in-depth
-            <a class="blue underline" href="https://drive.google.com/file/d/1z2KqmmFZRxDnvYQKmfHCN4-boHKZBize/view?usp=sharing" target="_blank">client survey and priority list</a>.</p>
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">User Interviews & Personas</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>Next, we conducted user interviews with 9 participants from the UCSD community.
-            We focused on the Santorini located at UCSD's Price Center because our client wanted
-            to reach out and expand to other universities, so we interviewed people from the UCSD
-            community to get more relevant data for his target audience of university students.
-            Some questions we asked included:</p>
-          <ul class="spacing">
-            <li>What are some factors you consider before choosing a place to eat?</li>
-            <li>Why do you choose to eat at Santorini over other food places?</li>
-            <li>What do you think about the quality of the food at Santorini?</li>
-            <li>Tell me about a time you visited a restaurant website. Why did you visit it?</li>
-            <li>Have you ever visited the Santorini website? If yes, what are your impressions of it? If no, what would make you want to use it?</li>
-          </ul>
-          <p>See our spreadsheet for our <a class="blue underline" href="https://docs.google.com/spreadsheets/d/19CCM96l9LKG_lsemmISmMH3HTA7cIv6KAqM3Kpuyr6E/edit?usp=sharing" target="_blank">interview responses</a>.</p>
-
-          <h4 class="subtitle">Personas</h4>
-          <p>After conducting user interviews, we compiled the data into 3 distinct user types:
-            <b>savers</b>, <b>busy-bodies</b>, and <b>health-conscious</b>.</p>
-          <img class="img-fluid" src="images/santorini-imgs/saver.png" style="width:700px">
-          <br><br>
-          <img class="img-fluid" src="images/santorini-imgs/busy-body.png" style="width:700px">
-          <br><br>
-          <img class="img-fluid" src="images/santorini-imgs/health-conscious.png" style="width:700px">
-
-          <br><br>
-
-          <p>From the interview data we gathered and trends we observed, we came up with specific
-            user needs for each user type. We then created 6 user scenarios and 30 unique use cases that helped
-            us establish a list of potential features and functionality for our redesign of Santorini's website.</p>
-          <!--<h5 class="blue">Features and Functionality Table</h5>
-          <img class="center img-fluid" src="images/santorini-imgs/features-table.png" style="width:550px">-->
-          <p> Read more about our
-            <a class="blue underline" href="https://drive.google.com/file/d/1IKBPZg-A7WpStIJrL8WmSUpSWmpQqcTH/view?usp=sharing" target="_blank">user scenarios and use cases</a>.</p>
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Competitive Analysis & Mood Boards</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>We chose 5 of Santorini Island Grill's competitors:
-            <a class="blue underline" href="https://littlegreekfreshgrill.com/" target="_blank">Little Greek Island Grill</a>,
-            <a class="blue underline" href="https://thesimplegreek.com" target="_blank">The Simple Greek</a>,
-            <a class="blue underline" href="https://pandaexpress.com/" target="_blank">Panda Express</a>,
-            <a class="blue underline" href="https://jamba.com/" target="_blank">Jamba Juice</a>, and
-            <a class="blue underline" href="https://tapiocaexpress.com/" target="_blank">Tapioca Express</a>.
-            The first two restaurants were chosen because they are also Greek restaurants that serve the same type
-            of food as Santorini. The last three were chosen based on proximity to the Santorini locations in San Diego.
-            We analyzed both their mobile and desktop sites and put together a competitve analysis,
-            separated into branding, functionality, site architecture, content, and overall good design ideas
-            to inspire us for our redesign of Santorini's website.</p>
-
-          <h4 class="subtitle">Summary of Findings</h4>
-          <ul class="spacing">
-            <li>Place emphasis on <b>slogan</b> to ensure that is the first thing that users see.</li>
-            <li>Use <b>pictures of food</b> to attract customers. This also allows Santorini's fresh ingredients to shine through on their website.</li>
-            <li>Keep it <b>consistent</b> and <b>simple</b> to avoid cluttering.</li>
-            <li>Clearly label <b>opening times, closing times</b>, and <b>directions</b> for each store location.</li>
-            <li><b>Embedded forms</b> simplify application processes for users to reach out to the company.</li>
-            <li>Provide <b>clear indication</b> of which page the user is currently on.</li>
-            <li>Highlight the business' <b>history to establish credibility</b> and tell their story.</li>
-            <li><b>Organize menu items</b> in a clear manner so users can browse through items easier.</li>
-          </ul>
-
-          <h4 class="subtitle"> What We Could Use</h4>
-          <img class="img-fluid" src="images/santorini-imgs/competitive-analysis.png" style="width:700px">
-          <p>Check out our in-depth <a class="blue underline" href="https://drive.google.com/file/d/1Y7iEYf81y2Oy-cb0OC11nzeWVrdmJuZo/view?usp=sharing" target="_blank">competitive analysis presentation</a>.</p>
-
-          <h4 class="subtitle">Mood Boards</h4>
-          <p>We also put together several mood boards that represent the theme, culture, color palette, and overall
-            aesthetic of Santorini's website.</p>
-          <img class="center img-fluid" src="images/santorini-imgs/moodboard1.png" style="width:500px"> <br>
-          <img class="center img-fluid" src="images/santorini-imgs/moodboard2.png" style="width:500px"> <br>
-          <img class="center img-fluid" src="images/santorini-imgs/moodboard3.png" style="width:400px">
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Creative Brief</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>We wrote a <a class="blue underline" href="https://drive.google.com/file/d/1arjxwJU9Ul3EaAFDafbJKHN_dt1-D5gC/view?usp=sharing" target="_blank">creative brief</a>
-             detailing what the finished product will be, with a summary of what content goes into each page.
-             We defined the key target audience, and stated clear, measurable objectives for both our client and the audience.</p>
-          <h4 class="subtitle">Key Target Audience Insights</h4>
-          <ul class="spacing">
-            <li>Comunicate that Santorini provides <b>fresh, high quality food at a great price point</b>.</li>
-            <li>Attract <b>younger people</b> with our design, since our primary audience is college students,
-              and Santorini plans on expanding to more university locations.</li>
-            <li>Make information about the restaurant <b>clear and easy to find</b>, so the audience knows that
-              the website is <b>reliable</b>.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Wireframing & Prototyping</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>We sketched out low-fidelity wireframes of the mobile website
-            to show the layout of each page, the navigation, and the footer.</p>
-          <img class="img-fluid" src="images/santorini-imgs/santorini-wireframes.png" style="width:100%">
-          <p>Check out our <a class="blue underline" href="https://drive.google.com/file/d/1e6aX69C3nbJK05fPX1y-uStSyHmb5Xbn/view?usp=sharing" target="_blank">slides</a>
-            describing all the functional specifications and interactivity in our wireframes.</p>
-
-          <h4 class="subtitle">Site Architecture</h4>
-          <p>We also created a site map, showing all
-            navigation labels and the topology of how pages are connected.</p>
-          <img class="img-fluid" src="images/santorini-imgs/site-architecture.png" style="width:100%">
-
-          <h4 class="subtitle">Prototyping</h4>
-          <p>We then designed interactive high-fidelity prototypes for both the mobile
-            and desktop websites using Figma.</p>
-          <h5 class="spacing">Mobile</h5>
-          <img class="img-fluid" src="images/santorini-imgs/mobile-prototype.png" style="width:100%">
-          <h5 class="spacing">Desktop</h5>
-          <img class="img-fluid" src="images/santorini-imgs/desktop-prototype.png" style="width:100%">
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">User Testing</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>After we created a working prototype of our website, we conducted user testing.
-            Tasks included finding out what time a restaurant closes, finding the address,
-            ordering online, finding where to buy sauces, ordering catering, and
-            downloading the job application.
-            Read more about our
-              <a class="blue underline" href="https://drive.google.com/file/d/1GlHg6MxTDP70U5ZrDKXSp9_YfWAByPzZ/view?usp=sharing" target="_blank">user testing plan</a>.
-            We tested on mobile first, and then desktop.
-            Some users struggled with a few of the tasks we had for them, making it clear what
-            we needed to work on in order to improve their experience. After we received feedback
-            from our users, we noted the points we needed to fix and change.</p>
-          <h4 class="subtitle">Location Cards</h4>
-          <p> Users were confused about the tags in the location cards, thinking they were
-              clickable links. To remedy this, we decided to remove the tags.</p>
-          <img class="img-fluid" src="images/santorini-imgs/location-tag1.png" style="width:100%">
-          <p class="subtitle"><em><b>Top:</b>Locations page on mobile. <b>Bottom:</b> Corresponding desktop page.</em></p>
-          <img class="img-fluid" src="images/santorini-imgs/location-tag2.png" style="width:100%">
-
-          <h4 class="subtitle">Dropdown Navigation</h4>
-          <p> Users also experienced some trouble with the navigation, specifically the dropdown
-            for Locations and Menus. On mobile, we had little arrows next to those two pages
-            in the navigation. However, we only made the arrow lead to the dropdown, which was
-            difficult for the user due to the small surface area. Clicking on the name of the page
-            would lead them to the overview pages for Locations and Menus. We decided to remove the
-            dropdown for these pages and only keep the links to the overview pages.</p>
-          <img class="img-fluid" src="images/santorini-imgs/mobile-nav.png" style="width:100%">
-          <p style="padding-top:30px">On desktop, dropdowns for each location would appear on hover over the Locations and Menus header.
-            However, after user testing, we found out that users didn't know that they could click on those pages
-            to get to an overview page with all the locations. They didn't know that page existed. We decided to
-            remove the dropdowns on both mobile and desktop to make it less confusing for users.</p>
-          <img class="img-fluid" src="images/santorini-imgs/desktop-nav.png" style="width:100%">
-
-          <h4 class="subtitle">Footer</h4>
-          <p> Originally, we had a three-column design with contact information in the footer. However,
-            this overwhelmed the user with lots of information and looked cluttered. Users couldn't
-            find the pages that weren't in the top navigation since we included every page in the footer.
-            After user testing, we decided to highlight the social media links and keep only the 4 pages
-            that weren't in the top navigation in the footer (Catering, Careers, Investors, and Contact).
-            We also moved the contact information to the contact page to make the social media and navigation
-            links stand out more.</p>
-          <img class="img-fluid" src="images/santorini-imgs/desktop-footer.png" style="width:100%">
-          <p class="subtitle"><em><b>Top:</b> Desktop footer. <b>Bottom:</b> Corresponding mobile footer.</em></p>
-          <img class="img-fluid" src="images/santorini-imgs/mobile-footer.png" style="width:100%">
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Key Design Problems</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>We felt it was difficult when our client's requests conflicted with our user's needs
-            and user testing results.</p>
-          <h4 class="subtitle">Navigation</h4>
-          <p> We were wondering what the best way was to separate the pages on our site. Our main
-            personas wanted quick access to the Locations, Menus, and Investor pages. However, our
-            client insisted that the investors and other contact pages should be hidden, so that
-            only the people who were genuinely interested and scrolled through the website enough
-            would reach out to him. We struggled with how to separate the pages and where to place
-            them, so we settled on this navigation design to highlight pages that were most important.</p>
-          <img class="img-fluid" src="images/santorini-imgs/navbar.png" style="width:100%">
-
-          <h4 class="subtitle">Our Story</h4>
-          <p>On the About page, we struggled to make it more visually appealing and convey the brand more.
-            At first, we only included photos of Greece, but there wasn't much relation to the restaurant
-            despite the timeline content being about the founding of the Santorini restaurant. Afterwards,
-            we received more content from our client and included pictures of Greek food and fresh ingredients
-            to reiterate on the motto, "We Speak Fresh!" We also added an additional section on "Benefits of a
-            Mediterranean Diet".</p>
-          <img class="img-fluid" src="images/santorini-imgs/about.png" style="width:100%">
-
-          <h4 class="subtitle">Logo</h4>
-          <p>We used the current Santorini logo in our initial prototype. However, the logo looked messy
-            and cluttered. Users were unable to read "Island Grill" in the logo (especially on a small screen on mobile devices).
-            This is important since it's the name of the website. We decided to redesign the logo and make it cleaner by taking out
-            the water in the old logo and straigtening out the letters so it didn't overlap with other elements in the logo,
-            making it legible for users to read. Overall, we made it look more modern while maintaining the color scheme
-            and visuals to convey the brand.</p>
-          <img class="img-fluid" src="images/santorini-imgs/old-logo.png" style="width:300px">
-          <img class="img-fluid" src="images/santorini-imgs/new-logo.png" style="width:280px">
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Final Design</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <a href="https://www.figma.com/proto/89qz4aZQOASsljL20ubnQ0/Santorini-Island-Grill-Redesign?node-id=118%3A0&scaling=min-zoom" target="_blank">
-            <button class="btn btn-outline-info final">Mobile Design</button></a>
-          <a href="https://www.figma.com/proto/89qz4aZQOASsljL20ubnQ0/Santorini-Island-Grill-Redesign?node-id=182%3A1138&scaling=scale-down" target="_blank">
-            <button class="btn btn-outline-info final">Desktop Design</button></a>
-
-          <!-- Carousel -->
-          <div id="demo" class="carousel slide text-center" data-ride="carousel" >
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-                <li data-target="#demo" data-slide-to="3"></li>
-                <li data-target="#demo" data-slide-to="4"></li>
-                <li data-target="#demo" data-slide-to="5"></li>
-                <li data-target="#demo" data-slide-to="6"></li>
-              </ul>
-
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/santorini-imgs/home.png" style="width:300px;">
-                  <img src="images/santorini-imgs/home-1.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/our-story.png" style="width:300px;">
-                  <img src="images/santorini-imgs/our-story-1.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/locations.png" style="width:300px;">
-                  <img src="images/santorini-imgs/locations-ucsd.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/menus.png" style="width:300px;">
-                  <img src="images/santorini-imgs/menus-ucsd.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/catering.png" style="width:300px;">
-                  <img src="images/santorini-imgs/careers.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/island-shop.png" style="width:300px;">
-                  <img src="images/santorini-imgs/island-shop-1.png" style="width:300px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/santorini-imgs/investors.png" style="width:300px;">
-                  <img src="images/santorini-imgs/contact.png" style="width:300px;">
-                </div>
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-          </div>
-          <!-- End of carousel -->
-
-          <img class="mobile-only img-fluid" src="images/santorini-imgs/mobile-screens.png">
-        </div>
-      </div>
-
-      <div class="row-text">
-        <div class="col-sm-4 column-text">
-          <h3 class="heading">Takeaways</h3>
-        </div>
-        <div class="col-sm-8 column-text pad-right">
-          <p>It was challenging to manage both client expectations as well as user needs, especially
-            when they conflict with each other. It was difficult to get the content we needed from
-            our client and we struggled to find the best way to visually present our information
-            and convey the Santorini brand through our redesign. The feedback we received from
-            user testing, our client, and our professor helped us focus on what to improve on.
-            Working on this project with my team has been a really rewarding experience.</p>
-          <h4 class="subtitle">Next Steps</h4>
-          <ul>
-            <li>Include Catering in mobile hamburger menu as it is an important component for a restaurant</li>
-            <li>Implement a roll over feature on menu images to see them better</li>
-            <li>Add a gallery to display larger images of the food</li>
-          </ul>
-          <p>Our prototype included a few functionalities that aren't fully interactive due to Figma's restrictions.
-            The next steps would be to work with a developer to implement these functionalities on the live site.</p>
-          <ul>
-            <li><b>Image carousel on the home page</b>
-              <ul><li>On the actual website, the images would play automatically and
-              users would be able to click on the arows to see the next image. The transition would be smooth. Figma
-              can only support a horizontal scroll, so this is whow we implemented this on our design. Users would
-              have to drag the image to see the next image on our Figma prototype.</li></ul>
-            <li><b>Locations / Menus</b>
-              <ul><li>These pages would show the closest location and highlight the operating hours
-              of the current day in blue on the actual website. Our prototype assumes that the current location is UCSD's
-              Santorini Island Grill, and that the current day is Wednesday.</li></ul>
-            <li><b>Contact forms</b>
-              <ul><li>In the actual website, users would be able to type in their information in the text
-              fields. These fields would have input validation. Our current prototype doesn't allow for this kind of
-              interactivity, so we mimicked this interaction by having a step by step completion. In our Figma prototype,
-              if users click on the first field, then they can move on to the second field, and so on.</li></ul>
-            <li><b>Downloading Job Application</b>
-              <ul><li>In the actual website, a PDF of the job application would be downloaded
-              onto the user's device. In our Figma prototype, the button is unable to prototype functionality. We added a
-              confirmation screen after the PDF was supposedly downloaded to ensure that users understood what the functionality was.</li></ul>
-          </ul>
-        </div>
-      </div>
-
-
-    <br><br>
-
-    <div>
-      <a href="index.html">
-        <button class="btn btn-outline-secondary back">← Back to Work</button></a>
-      <a href="dexcom.html">
-        <button class="btn btn-outline-secondary float-right next">See next project →</button></a>
     </div>
-  </div>
+
+    <div class="container grid-container">
+      <div>
+        <h6>Duration</h6>
+        <p>Jan - Mar 2020 (10 weeks) </p>
+      </div>
+      <div>
+        <h6>Course</h6>
+        <p>COGS 187B - Practicum in Pro Web Design</p>
+      </div>
+      <div>
+        <h6>Role</h6>
+        <p>UI / UX Designer</p>
+      </div>
+      <div>
+        <h6>Skills</h6>
+        <p>User Interviews, Personas, Wireframes, Competitive Analysis, Site Architecture, Prototyping, User Testing</p>
+      </div>
+      <div>
+        <h6>Tools</h6>
+        <p>Figma, Balsamiq</p>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Background</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>
+              <a class="blue underline" href="http://santoriniislandgrill.net/" target="_blank">Santorini Island Grill</a>
+              is a chain Greek restaurant with three locations in San Diego and one in
+              Santa Barbara. We reached out to the president, Takis Vartelas, and
+              offered to redesign the existing desktop and mobile website over the
+              course of 10 weeks. The current website was outdated, with inaccurate and
+              incomplete information. The navigation was confusing and the menus were
+              difficult to read. The overall website did not attract customers and lacked
+              a distinct brand and aesthetic appeal.</p>
+            <img class="img-fluid center" src="images/santorini-imgs/old-home-desktop.png" style="width:500px;">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Client Survey</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>We first interviewed our client to get a better understanding of their
+              objectives, branding, and information about the restaurant. We compiled a list of
+              questions to ask our client, such as what he would want users to learn about
+              Santorini after visiting the website, his current frustrations with the website,
+              and features he would want to be implemented. We interpreted his answers
+              and came up with a priority list for the redesign, which included:</p>
+            <ul class="spacing">
+              <li>Aim to reflect their motto <em>"We Speak Fresh"</em> and emphasize freshness in their food</li>
+              <li>An "About" page to highlight Santorini's history and Greek culture</li>
+              <li>Easier to read menus with more pictures</li>
+              <li>Have a business page for potential investors</li>
+            </ul>
+            <p>We used the MoSCoW method to separate our priorities and see what features we should focus on
+              for the redesign.</p>
+            <img class="img-fluid " src="images/santorini-imgs/moscow.png" style="width:100%;">
+            <p>Read more about our in-depth
+              <a class="blue underline" href="https://drive.google.com/file/d/1z2KqmmFZRxDnvYQKmfHCN4-boHKZBize/view?usp=sharing" target="_blank">client survey and priority list</a>.</p>
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">User Interviews & Personas</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>Next, we conducted user interviews with 9 participants from the UCSD community.
+              We focused on the Santorini located at UCSD's Price Center because our client wanted
+              to reach out and expand to other universities, so we interviewed people from the UCSD
+              community to get more relevant data for his target audience of university students.
+              Some questions we asked included:</p>
+            <ul class="spacing">
+              <li>What are some factors you consider before choosing a place to eat?</li>
+              <li>Why do you choose to eat at Santorini over other food places?</li>
+              <li>What do you think about the quality of the food at Santorini?</li>
+              <li>Tell me about a time you visited a restaurant website. Why did you visit it?</li>
+              <li>Have you ever visited the Santorini website? If yes, what are your impressions of it? If no, what would make you want to use it?</li>
+            </ul>
+            <p>See our spreadsheet for our <a class="blue underline" href="https://docs.google.com/spreadsheets/d/19CCM96l9LKG_lsemmISmMH3HTA7cIv6KAqM3Kpuyr6E/edit?usp=sharing" target="_blank">interview responses</a>.</p>
+
+            <h4 class="subtitle">Personas</h4>
+            <p>After conducting user interviews, we compiled the data into 3 distinct user types:
+              <b>savers</b>, <b>busy-bodies</b>, and <b>health-conscious</b>.</p>
+            <img class="img-fluid mobile-only" src="images/santorini-imgs/saver.png" style="width:700px;">
+            <br class="mobile-only">
+            <img class="img-fluid mobile-only" src="images/santorini-imgs/busy-body.png" style="width:700px;">
+            <br class="mobile-only">
+            <img class="img-fluid mobile-only" src="images/santorini-imgs/health-conscious.png" style="width:700px;">
+
+            <!-- Carousel -->
+            <div id="persona" class="carousel slide text-center" data-ride="carousel" >
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/santorini-imgs/saver.png" style="width:650px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/busy-body.png" style="width:650px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/health-conscious.png" style="width:650px;">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#persona" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#persona" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <!-- End of carousel -->
+
+            <br>
+
+            <p>From the interview data we gathered and trends we observed, we came up with specific
+              user needs for each user type. We then created 6 user scenarios and 30 unique use cases that helped
+              us establish a list of potential features and functionality for our redesign of Santorini's website.</p>
+            <!--<h5 class="blue">Features and Functionality Table</h5>
+            <img class="center img-fluid" src="images/santorini-imgs/features-table.png" style="width:550px">-->
+            <p> Read more about our
+              <a class="blue underline" href="https://drive.google.com/file/d/1IKBPZg-A7WpStIJrL8WmSUpSWmpQqcTH/view?usp=sharing" target="_blank">user scenarios and use cases</a>.</p>
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Competitive Analysis & Mood Boards</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>We chose 5 of Santorini Island Grill's competitors:
+              <a class="blue underline" href="https://littlegreekfreshgrill.com/" target="_blank">Little Greek Island Grill</a>,
+              <a class="blue underline" href="https://thesimplegreek.com" target="_blank">The Simple Greek</a>,
+              <a class="blue underline" href="https://pandaexpress.com/" target="_blank">Panda Express</a>,
+              <a class="blue underline" href="https://jamba.com/" target="_blank">Jamba Juice</a>, and
+              <a class="blue underline" href="https://tapiocaexpress.com/" target="_blank">Tapioca Express</a>.
+              The first two restaurants were chosen because they are also Greek restaurants that serve the same type
+              of food as Santorini. The last three were chosen based on proximity to the Santorini locations in San Diego.
+              We analyzed both their mobile and desktop sites and put together a competitve analysis,
+              separated into branding, functionality, site architecture, content, and overall good design ideas
+              to inspire us for our redesign of Santorini's website.</p>
+
+            <h4 class="subtitle">Summary of Findings</h4>
+            <ul class="spacing">
+              <li>Place emphasis on <b>slogan</b> to ensure that is the first thing that users see.</li>
+              <li>Use <b>pictures of food</b> to attract customers. This also allows Santorini's fresh ingredients to shine through on their website.</li>
+              <li>Keep it <b>consistent</b> and <b>simple</b> to avoid cluttering.</li>
+              <li>Clearly label <b>opening times, closing times</b>, and <b>directions</b> for each store location.</li>
+              <li><b>Embedded forms</b> simplify application processes for users to reach out to the company.</li>
+              <li>Provide <b>clear indication</b> of which page the user is currently on.</li>
+              <li>Highlight the business' <b>history to establish credibility</b> and tell their story.</li>
+              <li><b>Organize menu items</b> in a clear manner so users can browse through items easier.</li>
+            </ul>
+
+            <h4 class="subtitle"> What We Could Use</h4>
+            <img class="img-fluid" src="images/santorini-imgs/competitive-analysis.png" style="width:700px">
+            <p>Check out our in-depth <a class="blue underline" href="https://drive.google.com/file/d/1Y7iEYf81y2Oy-cb0OC11nzeWVrdmJuZo/view?usp=sharing" target="_blank">competitive analysis presentation</a>.</p>
+
+            <h4 class="subtitle">Mood Boards</h4>
+            <p>We also put together several mood boards that represent the theme, culture, color palette, and overall
+              aesthetic of Santorini's website.</p>
+            <img class="center img-fluid" src="images/santorini-imgs/moodboard1.png" style="width:500px"> <br>
+            <img class="center img-fluid" src="images/santorini-imgs/moodboard2.png" style="width:500px"> <br>
+            <img class="center img-fluid" src="images/santorini-imgs/moodboard3.png" style="width:400px">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Creative Brief</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>We wrote a <a class="blue underline" href="https://drive.google.com/file/d/1arjxwJU9Ul3EaAFDafbJKHN_dt1-D5gC/view?usp=sharing" target="_blank">creative brief</a>
+               detailing what the finished product will be, with a summary of what content goes into each page.
+               We defined the key target audience, and stated clear, measurable objectives for both our client and the audience.</p>
+            <h4 class="subtitle">Key Target Audience Insights</h4>
+            <ul class="spacing">
+              <li>Comunicate that Santorini provides <b>fresh, high quality food at a great price point</b>.</li>
+              <li>Attract <b>younger people</b> with our design, since our primary audience is college students,
+                and Santorini plans on expanding to more university locations.</li>
+              <li>Make information about the restaurant <b>clear and easy to find</b>, so the audience knows that
+                the website is <b>reliable</b>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Wireframing & Prototyping</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>We sketched out low-fidelity wireframes of the mobile website
+              to show the layout of each page, the navigation, and the footer.</p>
+            <img class="img-fluid" src="images/santorini-imgs/santorini-wireframes.png" style="width:100%">
+            <p>Check out our <a class="blue underline" href="https://drive.google.com/file/d/1e6aX69C3nbJK05fPX1y-uStSyHmb5Xbn/view?usp=sharing" target="_blank">slides</a>
+              describing all the functional specifications and interactivity in our wireframes.</p>
+
+            <h4 class="subtitle">Site Architecture</h4>
+            <p>We also created a site map, showing all
+              navigation labels and the topology of how pages are connected.</p>
+            <img class="img-fluid" src="images/santorini-imgs/site-architecture.png" style="width:100%">
+
+            <h4 class="subtitle">Prototyping</h4>
+            <p>We then designed interactive high-fidelity prototypes for both the mobile
+              and desktop websites using Figma.</p>
+            <h5 class="spacing">Mobile</h5>
+            <img class="img-fluid modal-img" id="myImg" src="images/santorini-imgs/mobile-prototype.png" alt="Mobile prototypes" style="width:100%">
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              <script src="js/modal.js"></script>
+
+            <h5 class="spacing">Desktop</h5>
+            <img class="img-fluid modal-img" id="desktop-prototype" src="images/santorini-imgs/desktop-prototype.png" alt="Desktop prototypes" style="width:100%">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">User Testing</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>After we created a working prototype of our website, we conducted user testing.
+              Tasks included finding out what time a restaurant closes, finding the address,
+              ordering online, finding where to buy sauces, ordering catering, and
+              downloading the job application.
+              Read more about our
+                <a class="blue underline" href="https://drive.google.com/file/d/1GlHg6MxTDP70U5ZrDKXSp9_YfWAByPzZ/view?usp=sharing" target="_blank">user testing plan</a>.
+              We tested on mobile first, and then desktop.
+              Some users struggled with a few of the tasks we had for them, making it clear what
+              we needed to work on in order to improve their experience. After we received feedback
+              from our users, we noted the points we needed to fix and change.</p>
+            <h4 class="subtitle">Location Cards</h4>
+            <p> Users were confused about the tags in the location cards, thinking they were
+                clickable links. To remedy this, we decided to remove the tags.</p>
+            <img class="img-fluid" src="images/santorini-imgs/location-tag1.png" style="width:100%">
+            <p class="subtitle"><em><b>Top:</b>Locations page on mobile. <b>Bottom:</b> Corresponding desktop page.</em></p>
+            <img class="img-fluid" src="images/santorini-imgs/location-tag2.png" style="width:100%">
+
+            <h4 class="subtitle">Dropdown Navigation</h4>
+            <p> Users also experienced some trouble with the navigation, specifically the dropdown
+              for Locations and Menus. On mobile, we had little arrows next to those two pages
+              in the navigation. However, we only made the arrow lead to the dropdown, which was
+              difficult for the user due to the small surface area. Clicking on the name of the page
+              would lead them to the overview pages for Locations and Menus. We decided to remove the
+              dropdown for these pages and only keep the links to the overview pages.</p>
+            <img class="img-fluid" src="images/santorini-imgs/mobile-nav.png" style="width:100%">
+            <p style="padding-top:30px">On desktop, dropdowns for each location would appear on hover over the Locations and Menus header.
+              However, after user testing, we found out that users didn't know that they could click on those pages
+              to get to an overview page with all the locations. They didn't know that page existed. We decided to
+              remove the dropdowns on both mobile and desktop to make it less confusing for users.</p>
+            <img class="img-fluid" src="images/santorini-imgs/desktop-nav.png" style="width:100%">
+
+            <h4 class="subtitle">Footer</h4>
+            <p> Originally, we had a three-column design with contact information in the footer. However,
+              this overwhelmed the user with lots of information and looked cluttered. Users couldn't
+              find the pages that weren't in the top navigation since we included every page in the footer.
+              After user testing, we decided to highlight the social media links and keep only the 4 pages
+              that weren't in the top navigation in the footer (Catering, Careers, Investors, and Contact).
+              We also moved the contact information to the contact page to make the social media and navigation
+              links stand out more.</p>
+            <img class="img-fluid" src="images/santorini-imgs/desktop-footer.png" style="width:100%">
+            <p class="subtitle"><em><b>Top:</b> Desktop footer. <b>Bottom:</b> Corresponding mobile footer.</em></p>
+            <img class="img-fluid" src="images/santorini-imgs/mobile-footer.png" style="width:100%">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Key Design Problems</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>We felt it was difficult when our client's requests conflicted with our user's needs
+              and user testing results.</p>
+            <h4 class="subtitle">Navigation</h4>
+            <p> We were wondering what the best way was to separate the pages on our site. Our main
+              personas wanted quick access to the Locations, Menus, and Investor pages. However, our
+              client insisted that the investors and other contact pages should be hidden, so that
+              only the people who were genuinely interested and scrolled through the website enough
+              would reach out to him. We struggled with how to separate the pages and where to place
+              them, so we settled on this navigation design to highlight pages that were most important.</p>
+            <img class="img-fluid" src="images/santorini-imgs/navbar.png" style="width:100%">
+
+            <h4 class="subtitle">Our Story</h4>
+            <p>On the About page, we struggled to make it more visually appealing and convey the brand more.
+              At first, we only included photos of Greece, but there wasn't much relation to the restaurant
+              despite the timeline content being about the founding of the Santorini restaurant. Afterwards,
+              we received more content from our client and included pictures of Greek food and fresh ingredients
+              to reiterate on the motto, "We Speak Fresh!" We also added an additional section on "Benefits of a
+              Mediterranean Diet".</p>
+            <img class="img-fluid" src="images/santorini-imgs/about.png" style="width:100%">
+
+            <h4 class="subtitle">Logo</h4>
+            <p>We used the current Santorini logo in our initial prototype. However, the logo looked messy
+              and cluttered. Users were unable to read "Island Grill" in the logo (especially on a small screen on mobile devices).
+              This is important since it's the name of the website. We decided to redesign the logo and make it cleaner by taking out
+              the water in the old logo and straigtening out the letters so it didn't overlap with other elements in the logo,
+              making it legible for users to read. Overall, we made it look more modern while maintaining the color scheme
+              and visuals to convey the brand.</p>
+            <img class="img-fluid" src="images/santorini-imgs/both-logos.png" style="width:100%;">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Final Design</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <a href="https://www.figma.com/proto/89qz4aZQOASsljL20ubnQ0/Santorini-Island-Grill-Redesign?node-id=118%3A0&scaling=min-zoom" target="_blank">
+              <button class="btn btn-outline-info final">Mobile Design</button></a>
+            <a href="https://www.figma.com/proto/89qz4aZQOASsljL20ubnQ0/Santorini-Island-Grill-Redesign?node-id=182%3A1138&scaling=scale-down" target="_blank">
+              <button class="btn btn-outline-info final">Desktop Design</button></a>
+
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide text-center" data-ride="carousel" >
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                  <li data-target="#demo" data-slide-to="4"></li>
+                  <li data-target="#demo" data-slide-to="5"></li>
+                  <li data-target="#demo" data-slide-to="6"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/santorini-imgs/home.png" style="width:300px;">
+                    <img src="images/santorini-imgs/home-1.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/our-story.png" style="width:300px;">
+                    <img src="images/santorini-imgs/our-story-1.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/locations.png" style="width:300px;">
+                    <img src="images/santorini-imgs/locations-ucsd.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/menus.png" style="width:300px;">
+                    <img src="images/santorini-imgs/menus-ucsd.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/catering.png" style="width:300px;">
+                    <img src="images/santorini-imgs/careers.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/island-shop.png" style="width:300px;">
+                    <img src="images/santorini-imgs/island-shop-1.png" style="width:300px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/santorini-imgs/investors.png" style="width:300px;">
+                    <img src="images/santorini-imgs/contact.png" style="width:300px;">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <!-- End of carousel -->
+
+            <img class="mobile-only img-fluid" src="images/santorini-imgs/mobile-screens.png">
+          </div>
+        </div>
+
+        <div class="row-text">
+          <div class="col-sm-4 column-text">
+            <h3 class="heading">Takeaways</h3>
+          </div>
+          <div class="col-sm-8 column-text">
+            <p>It was challenging to manage both client expectations as well as user needs, especially
+              when they conflict with each other. It was difficult to get the content we needed from
+              our client and we struggled to find the best way to visually present our information
+              and convey the Santorini brand through our redesign. The feedback we received from
+              user testing, our client, and our professor helped us focus on what to improve on.
+              Working on this project with my team has been a really rewarding experience.</p>
+            <h4 class="subtitle">Next Steps</h4>
+            <ul>
+              <li>Include Catering in mobile hamburger menu as it is an important component for a restaurant</li>
+              <li>Implement a roll over feature on menu images to see them better</li>
+              <li>Add a gallery to display larger images of the food</li>
+            </ul>
+            <p>Our prototype included a few functionalities that aren't fully interactive due to Figma's restrictions.
+              The next steps would be to work with a developer to implement these functionalities on the live site.</p>
+            <ul>
+              <li><b>Image carousel on the home page</b>
+                <ul><li>On the actual website, the images would play automatically and
+                users would be able to click on the arows to see the next image. The transition would be smooth. Figma
+                can only support a horizontal scroll, so this is whow we implemented this on our design. Users would
+                have to drag the image to see the next image on our Figma prototype.</li></ul>
+              <li><b>Locations / Menus</b>
+                <ul><li>These pages would show the closest location and highlight the operating hours
+                of the current day in blue on the actual website. Our prototype assumes that the current location is UCSD's
+                Santorini Island Grill, and that the current day is Wednesday.</li></ul>
+              <li><b>Contact forms</b>
+                <ul><li>In the actual website, users would be able to type in their information in the text
+                fields. These fields would have input validation. Our current prototype doesn't allow for this kind of
+                interactivity, so we mimicked this interaction by having a step by step completion. In our Figma prototype,
+                if users click on the first field, then they can move on to the second field, and so on.</li></ul>
+              <li><b>Downloading Job Application</b>
+                <ul><li>In the actual website, a PDF of the job application would be downloaded
+                onto the user's device. In our Figma prototype, the button is unable to prototype functionality. We added a
+                confirmation screen after the PDF was supposedly downloaded to ensure that users understood what the functionality was.</li></ul>
+            </ul>
+          </div>
+        </div>
+
+
+      <br><br>
+
+      <div>
+        <a href="index.html">
+          <button class="btn btn-outline-secondary back">← Back to Work</button></a>
+        <a href="dexcom.html">
+          <button class="btn btn-outline-secondary float-right next">See next project →</button></a>
+      </div>
+    </div>
 
     <!-- Footer -->
-    <footer class="container-fluid">
+    <footer class="container">
       <div class="row">
         <div class="col">
-          <p style="float-left;">© Fiona Wong 2020</p>
+          <p style="float-left;"> © Fiona Wong 2020 </p>
         </div>
         <div class="col">
           <a style="float:right;" class="icon" href="https://www.linkedin.com/in/wong-fiona/" target="_blank"><img src="images/contact-imgs/li.png" alt="LinkedIn" style="width: 20px"></a>
