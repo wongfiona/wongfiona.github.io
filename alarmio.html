@@ -25,7 +25,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right" id="#navbar">
+    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html"><!--<img src="images/icon.png" style="width: 50px>-->Fiona Wong</a>
@@ -51,7 +51,6 @@
         </div>
       </div>
     </nav>
-    <!--<script src="js/nav.js"></script>-->
 
     <div class="container-fluid">
       <!--<h1 class="text-center title">Alarmio</h1>-->
@@ -81,12 +80,12 @@
         </div>
       </div>
 
-    <div class="container">
+    <div class="container body-content">
       <div class="row-text">
         <div class="col-sm-4 column-text">
           <h3 class="heading">Background</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>Waking up in the morning and getting out the door shouldn’t require
             opening three different applications. We want our users (commuters)
             to have all the information they need for starting their day at their
@@ -102,9 +101,11 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">Storyboarding</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
-          <img class="img-fluid storyboard" src="images/alarmio-imgs/storyboard.jpeg" style="width:300px">
-          <img class="img-fluid storyboard" src="images/alarmio-imgs/storyboard2.jpeg" style="width:300px">
+        <div class="col-sm-8 column-text">
+          <div class="flex-div">
+            <img class="img-fluid storyboard" src="images/alarmio-imgs/storyboard.jpeg" style="width:275px;">
+            <img class="img-fluid storyboard" src="images/alarmio-imgs/storyboard2.jpeg" style="width:275px;">
+          </div>
           <p>We created storyboards to get a better idea of the people who might
             want to use our application. We used these to construct personas
             with goals and needs that might be met with Alarmio.</p>
@@ -115,7 +116,7 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">Paper Prototyping</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>Next, we created two different paper prototypes. One shows a design
             for our home screen with several cards listed. Each card represents
             one feature available - alarms, weather, traffic, motivation, etc.
@@ -134,13 +135,14 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">Wireframing</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>We took the best features from each of our two paper prototypes to create
             a low-fidelity wireframe. We were able to make it interactive using Marvel
             and see the user workflow of the app.</p>
-          <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe1.png" style="width:200px">
-          <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe2.png" style="width:200px">
-          <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe3.png" style="width:200px">
+
+            <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe1.png" style="width:200px">
+            <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe2.png" style="width:200px">
+            <img class="img-fluid prototype-img" src="images/alarmio-imgs/wireframe3.png" style="width:200px">
         </div>
       </div>
 
@@ -148,7 +150,7 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">User Testing</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>After we coded a working prototype of our app, we conducted user testing.
             Read our in-depth
               <a class="blue underline" href="https://drive.google.com/file/d/17-UnFlEyh8eoG4wj5os3BvsYbmNsz1-0/view?usp=sharing" target="_blank">user testing plan</a>.
@@ -156,8 +158,10 @@
             at this stage, such as making certain areas clickable and fixing
             the back button. After we received feedback from our users, we noted
             the points we needed to fix and compiled a list of changes to utilize for our app.</p>
-          <img class="img-fluid" src="images/alarmio-imgs/user1.png" style="width:383px">
-          <img class="img-fluid" src="images/alarmio-imgs/user2.png" style="width:297px">
+          <div class="flex-div">
+            <img class="img-fluid" src="images/alarmio-imgs/user1.png" style="width:383px">
+            <img class="img-fluid" src="images/alarmio-imgs/user2.png" style="width:297px">
+          </div>
           <h4 class="subtitle">Summary of Findings</h4>
           <p> After conducting user testing, we found that users were generally
               able to navigate easily through our app to add new alarms and new locations
@@ -181,7 +185,7 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">Final Design</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>We incorporated most of the changes and feedback we received from user testing
             to the best of our ability into our final design.</p>
           <img class="center img-fluid " src="images/alarmio-imgs/slide.jpeg" style="width:800px">
@@ -200,7 +204,7 @@
         <div class="col-sm-4 column-text">
           <h3 class="heading">Takeaways</h3>
         </div>
-        <div class="col-sm-8 column-text pad-right">
+        <div class="col-sm-8 column-text">
           <p>After working with my team this quarter, I learned that it’s important to have a clear vision of
             what we are trying to accomplish with our app. I would have liked to
             complete the needfinding part of the project with my group, rather than individually, since we

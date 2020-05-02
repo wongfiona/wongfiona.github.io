@@ -24,27 +24,16 @@ body p, li {
   color: #367DA2;
 }
 
-#navbar {
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  background-color: white;
-  z-index: 9999;
-}
-
 .navbar-brand {
   font-weight: bolder;
-  font-size: 25px;
+  /*font-size: 25px;*/
   text-transform: capitalize;
 }
 
 .jumbotron {
   background-color: white;
   margin-bottom: -10px;
-  margin-top: 50px;
-  /*margin-left: 200px;
-  margin-right: 100px;*/
+  margin-top: 60px;
 }
 
 .jumbotron h1, h6, p, li {
@@ -115,8 +104,8 @@ body p, li {
 
 /* Title of projects */
 .title {
-  padding-top: 100px;
-  padding-bottom: 60px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -134,7 +123,7 @@ body p, li {
 }
 
 .spacing {
-  line-height: 1.65em;
+  line-height: 1.7em;
 }
 
 .carousel {
@@ -299,10 +288,6 @@ body p, li {
   padding-right: 30px;
 }
 
-.col-sm-8 {
-  padding-right: 0px;
-}
-
 .row-text {
   display: flex;
 }
@@ -326,6 +311,11 @@ body p, li {
 
 .subtitle {
   padding-top: 30px;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: row;
 }
 
 .storyboard {
@@ -438,6 +428,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
+
   [class*="card-"] {
     width: 100%;
   }
@@ -472,15 +463,16 @@ footer {
   .col-sm-8 {
     max-width: 100%;
     padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .body-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .heading {
     margin-left: 0px;
-  }
-
-  .pad-right {
-    padding-right: 10px;
-    padding-top: 10px;
   }
 
   .carousel {
@@ -504,6 +496,17 @@ footer {
   .float-right {
     float: center;
     margin-left: 10px;
+  }
+
+  iframe {
+    width: 350px;
+  }
+
+  .flex-div {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .about {
@@ -561,8 +564,7 @@ footer {
 
   .grid-container {
     grid-template-columns: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0px;
   }
 
   .row-text {
@@ -579,6 +581,7 @@ footer {
   .col-sm-8 {
     max-width: 100%;
     padding-left: 0px;
+    padding-top: 10px;
   }
 
   .heading {
@@ -586,9 +589,15 @@ footer {
     padding-top: 15px;
   }
 
-  .pad-right {
-    padding-right: 0px;
-    padding-top: 10px;
+  .flex-div {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  iframe {
+    width: 500px;
   }
 
   .about {

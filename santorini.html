@@ -25,7 +25,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right" id="navbar">
+    <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html"><!--<img src="images/icon.png" style="width: 50px>-->Fiona Wong</a>
@@ -51,7 +51,6 @@
         </div>
       </div>
     </nav>
-    <!--<script src="js/nav.js"></script>-->
 
     <div class="container-fluid">
       <h1 class="text-center title">Santorini Website Redesign</h1>
@@ -82,7 +81,7 @@
       </div>
     </div>
 
-      <div class="container">
+      <div class="container body-content">
         <div class="row-text">
           <div class="col-sm-4 column-text">
             <h3 class="heading">Background</h3>
@@ -158,9 +157,9 @@
             <div id="persona" class="carousel slide text-center" data-ride="carousel" >
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#persona" data-slide-to="0" class="active"></li>
+                  <li data-target="#persona" data-slide-to="1"></li>
+                  <li data-target="#persona" data-slide-to="2"></li>
                 </ul>
 
                 <!-- The slideshow -->
@@ -218,7 +217,8 @@
             <h4 class="subtitle">Summary of Findings</h4>
             <ul class="spacing">
               <li>Place emphasis on <b>slogan</b> to ensure that is the first thing that users see.</li>
-              <li>Use <b>pictures of food</b> to attract customers. This also allows Santorini's fresh ingredients to shine through on their website.</li>
+              <li>Use <b>pictures of food</b> to attract customers.</li>
+                <ul><li>This also allows Santorini's fresh ingredients to shine through on their website.</li></ul>
               <li>Keep it <b>consistent</b> and <b>simple</b> to avoid cluttering.</li>
               <li>Clearly label <b>opening times, closing times</b>, and <b>directions</b> for each store location.</li>
               <li><b>Embedded forms</b> simplify application processes for users to reach out to the company.</li>
@@ -250,7 +250,7 @@
                We defined the key target audience, and stated clear, measurable objectives for both our client and the audience.</p>
             <h4 class="subtitle">Key Target Audience Insights</h4>
             <ul class="spacing">
-              <li>Comunicate that Santorini provides <b>fresh, high quality food at a great price point</b>.</li>
+              <li>Communicate that Santorini provides <b>fresh, high quality food at a great price point</b>.</li>
               <li>Attract <b>younger people</b> with our design, since our primary audience is college students,
                 and Santorini plans on expanding to more university locations.</li>
               <li>Make information about the restaurant <b>clear and easy to find</b>, so the audience knows that
@@ -279,17 +279,24 @@
             <p>We then designed interactive high-fidelity prototypes for both the mobile
               and desktop websites using Figma.</p>
             <h5 class="spacing">Mobile</h5>
-            <img class="img-fluid modal-img" id="myImg" src="images/santorini-imgs/mobile-prototype.png" alt="Mobile prototypes" style="width:100%">
+            <img class="img-fluid modal-img" id="santorini-prototype" src="images/santorini-imgs/mobile-prototype.png" alt="Mobile prototypes" style="width:100%">
               <!-- The Modal -->
               <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <img class="modal-content" id="modal-img">
                 <div id="caption"></div>
               </div>
               <script src="js/modal.js"></script>
 
             <h5 class="spacing">Desktop</h5>
-            <img class="img-fluid modal-img" id="desktop-prototype" src="images/santorini-imgs/desktop-prototype.png" alt="Desktop prototypes" style="width:100%">
+            <img class="img-fluid modal-img" id="santorini-prototype" src="images/santorini-imgs/desktop-prototype.png" alt="Desktop prototypes" style="width:100%">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="modal-img">
+              <div id="caption"></div>
+            </div>
+            <script src="js/modal.js"></script>
           </div>
         </div>
 
