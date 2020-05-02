@@ -564,7 +564,8 @@ footer {
 
   .grid-container {
     grid-template-columns: auto;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .row-text {
@@ -587,6 +588,11 @@ footer {
   .heading {
     margin-left: 0px;
     padding-top: 15px;
+  }
+
+  .back, .next {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .flex-div {
@@ -633,8 +639,7 @@ footer {
 @media only screen and (min-width: 992px) {
 /* For desktop */
   .card-deck {
-    padding: 10px 150px;
-    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   #work {
