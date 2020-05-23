@@ -83,11 +83,12 @@ body p, li {
   font-weight: bold;
 }
 
+.santorini-highlight {
+  background: linear-gradient(180deg, transparent 50%, #98B9EB 50%);
+}
+
 .santorini {
   background-color: #98B9EB;
-  /* The image used */
-  background-image: url("../images/santorini-imgs/santorini-banner.png");
-  transform: translateZ(-1px) scale(1.09);
 }
 
 .alarmio {
@@ -104,7 +105,7 @@ body p, li {
 
 /* Title of projects */
 .title {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -124,6 +125,10 @@ body p, li {
 
 .spacing {
   line-height: 1.7em;
+}
+
+.santorini-wireframe {
+  padding-bottom: 20px;
 }
 
 .carousel {
@@ -381,6 +386,8 @@ body p, li {
 
 .about-heading {
   padding-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .skills-grid {
@@ -411,19 +418,28 @@ body p, li {
 
 .hobby-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  opacity: 80%;
 }
 
-.icon {
-  margin-left: 20px;
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+.footer-icons a {
+  margin: 10px;
+}
+
+.footer-icons a:hover {
+  color: #367DA2;
 }
 
 @media only screen and (max-width: 768px) {
