@@ -26,8 +26,9 @@ body p, li {
 
 .navbar-brand {
   font-weight: bolder;
-  /*font-size: 25px;*/
+  font-size: 30px;
   text-transform: capitalize;
+  font-family: 'Caveat', cursive;
 }
 
 .jumbotron {
@@ -423,9 +424,8 @@ body p, li {
   grid-row-gap: 20px;
 }
 
-/* Add a gray background color and some padding to the footer */
 footer {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 30px;
   opacity: 80%;
 }
@@ -439,6 +439,7 @@ footer {
 }
 
 .footer-icons a:hover {
+  opacity: 100%;
   color: #367DA2;
 }
 
