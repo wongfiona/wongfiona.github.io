@@ -24,6 +24,12 @@ body p, li {
   color: #367DA2;
 }
 
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #efefef;
+  -moz-box-shadow: 0 8px 6px -6px #efefef;
+  box-shadow: 0 5px 6px -6px #efefef;
+}
+
 .navbar-brand {
   font-weight: bolder;
   font-size: 25px;
