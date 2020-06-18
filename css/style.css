@@ -24,12 +24,6 @@ body p, li {
   color: #367DA2;
 }
 
-/*.navbar {
-  -webkit-box-shadow: 0 8px 6px -6px #efefef;
-  -moz-box-shadow: 0 8px 6px -6px #efefef;
-  box-shadow: 0 5px 6px -6px #efefef;
-}*/
-
 #top-shadow {
     position: fixed;
     top: 0;
@@ -111,12 +105,16 @@ body p, li {
   font-weight: bold;
 }
 
-.santorini-highlight {
-  background: linear-gradient(180deg, transparent 50%, #98B9EB 50%);
+.highlight {
+  background: linear-gradient(180deg, transparent 50%, #367DA2 50%);
 }
 
 .santorini {
   background-color: #98B9EB;
+}
+
+.dexcom {
+  background-color: #D3E8C5;
 }
 
 .alarmio {
@@ -348,6 +346,7 @@ body p, li {
 
 .subtitle {
   padding-top: 30px;
+  font-weight: bold;
 }
 
 .flex-div {
@@ -388,6 +387,16 @@ body p, li {
 .dining-img {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.subheading {
+  font-weight: bold;
+}
+
+.quote {
+  font-size: 20px;
+  background-color: #efefef;
+  padding: 5px 10px;
 }
 
 .final {
