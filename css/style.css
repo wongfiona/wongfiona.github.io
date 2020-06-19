@@ -149,6 +149,10 @@ body p, li {
   background-size: cover;
 }
 
+.santorini-heading {
+  color: #629CF1;
+}
+
 .spacing {
   line-height: 1.7em;
 }
@@ -396,7 +400,7 @@ body p, li {
 .quote {
   font-size: 20px;
   background-color: #efefef;
-  padding: 5px 10px;
+  padding: 15px 15px;
 }
 
 .final {
