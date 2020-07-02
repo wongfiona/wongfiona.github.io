@@ -477,7 +477,7 @@ body p, li {
 footer {
   padding-top: 50px;
   padding-bottom: 30px;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 .footer-icons {
@@ -489,8 +489,7 @@ footer {
 }
 
 .footer-icons a:hover {
-  opacity: 100%;
-  color: #367DA2;
+  opacity: 100%!important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -657,8 +656,11 @@ footer {
     padding-top: 15px;
   }
 
-  .back, .next {
+  .back {
     margin-left: 100px;
+  }
+
+  .next {
     margin-right: 100px;
   }
 
@@ -691,10 +693,6 @@ footer {
     grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-  }
-
-  footer p {
-    margin-left: 100px;
   }
 
   .icon {
