@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed23f633b6.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -28,7 +30,7 @@
     <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand blue" href="index.html">
+          <a class="navbar-brand" href="index.html">
             <!--<img src="images/icon.png" style="width: 50px">-->Fiona Wong</a>
         </div>
 
@@ -46,7 +48,7 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/file/d/1FgRcUpalNe5KkoqR-1jWb3VMey_-qEXp/view?usp=sharing" target="_blank">Resume</a>
+              <a class="nav-link" href="https://drive.google.com/file/d/1hhE2IhxrHdyfbEqcEBAcvFpLgzAfOgXT/view?usp=sharing" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
@@ -59,22 +61,26 @@
     <div class="jumbotron">
       <div class="container text-center">
           <h1>Hi, I'm Fiona! 👋🏻</h1>
-          <h4>UI / UX designer based in San Francisco</h4>
+          <h4 class="hero-subtitle">I'm a UI / UX designer based in San Francisco. Previously <a class="blue" href="http://ddi.ucsd.edu/" target="_blank">@UCSD Design Lab</a>
+            & <a class="blue" href="https://precisepk.com/"target="_blank">@PrecisePK</a>.
+            Currently seeking full-time opportunities!</h4>
+
           <!--<h6><b>Currently:</b> Looking for UI / UX internships or full time, part-time web dev @PrecisePK</h6>
           <h6><b>Previously:</b> UX researcher @UCSD Design Lab</h6>-->
       </div>
     </div>
 
     <!-- Projects card deck -->
-    <div class="container text-center" id="work">
+    <div class="container" id="work">
       <div class="card-deck">
         <!-- Santorini -->
         <div class="card">
           <a class="card-hover" href="santorini.html">
-            <div class="card-body">
-            <img class="effect center img-fluid" src="images/santorini-imgs/santorini-desktop.png" style="width:450px;">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/santorini-imgs/santorini-desktop.png" style="width:450px;">
               <h4 class="card-title">Santorini Website Redesign</h4>
-              <p>Redesigning Santorini Island Grill's mobile & desktop website</p>
+              <p class="card-tag">UI/UX Design</p>
+              <p class="card-subtitle">Transformed the Santorini Island Grill mobile & desktop websites to revitalize the brand for business client</p>
             </div>
           </a>
         </div>
@@ -82,38 +88,65 @@
         <!-- Dexcom -->
         <div class="card">
           <a class="card-hover" href="dexcom.html">
-            <div class="card-body">
-            <img class="effect center img-fluid" src="images/dexcom-imgs/dexcom.png" style="width:450px;">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/dexcom-imgs/dexcom.png" style="width:450px;">
               <h4 class="card-title">Dexcom x UCSD Design Lab</h4>
-              <p>Redesigning the user interface of the Dexcom Follow app</p>
+              <p class="card-tag">UX Design | UX Research | NDA</p>
+              <p class="card-subtitle">Redesigned the Dexcom Follow app for parents monitoring their children with diabetes</p>
             </div>
           </a>
         </div>
       </div>
 
       <div class="card-deck">
-        <!-- Alarmio -->
+        <!-- Design Co: Level Up -->
+        <div class="card">
+          <a class="card-hover" href="yelp.html">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/yelp-imgs/yelp.png" style="width:450px;">
+              <h4 class="card-title">Yelp Appointments</h4>
+              <p class="card-tag">Product Design</p>
+              <p class="card-subtitle">Expanded on the Yelp appointment feature to streamline the process of booking at store & at home appointments</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- DDI -->
+        <div class="card">
+          <a class="card-hover" href="ddi.html">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/dexcom-imgs/ddi.png" style="width:450px;">
+              <h4 class="card-title">Diabetes Design Initiative</h4>
+              <p class="card-tag">UX Design | UX Research | NDA</p>
+              <p class="card-subtitle">Introduced a new feature in the Dexcom Follow app to improve care coordination at a diabetes camp</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!--<div class="card-deck">
+         Alarmio
         <div class="card">
           <a class="card-hover" href="alarmio.html">
-            <div class="card-body">
-              <img class="effect center img-fluid" src="images/alarmio-imgs/alarmio2.png" style="width:450px;">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/alarmio-imgs/alarmio2.png" style="width:450px;">
               <h4 class="card-title">Alarmio</h4>
               <p>Alarm, weather, and routes all in one app</p>
             </div>
           </a>
         </div>
 
-        <!-- Dining -->
+        Dining
         <div class="card">
           <a class="card-hover" href="dining.html">
-            <div class="card-body">
-              <img class="effect center img-fluid" src="images/dining-imgs/dining.png" style="width: 450px">
+            <div class="card-body" style="width:500px;">
+              <img class="effect img-fluid" src="images/dining-imgs/dining.png" style="width: 450px">
               <h4 class="card-title">UCSD App: Dining</h4>
               <p>Redesigning the dining section</p>
             </div>
           </a>
         </div>
-      </div>
+      </div>-->
 
       <!--<div class="card-deck">
         MedAlarm
@@ -140,15 +173,16 @@
         </div>
       </div>-->
     </div>
+    <!-- End of projects card deck -->
 
     <!-- Footer -->
     <footer class="container text-center">
       <div class="footer-icons">
-        <a href="mailto: wong.fiona.11@gmail.com" target="_blank"><img src="images/contact-imgs/email.png" style="width: 30px"></a>
-        <a href="https://www.linkedin.com/in/wong-fiona/" target="_blank"><img src="images/contact-imgs/li.png"style="width: 30px"></a>
-        <a href="https://github.com/wongfiona" target="_blank"><img src="images/contact-imgs/github.png" style="width: 30px"></a>
+        <a class="footer-link" href="mailto: wong.fiona.11@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+        <a class="footer-link" href="https://www.linkedin.com/in/wong-fiona/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class="footer-link" href="https://github.com/wongfiona" target="_blank"><i class="fab fa-github fa-2x"></i></a>
       </div>
-      <p> Designed & Coded by Fiona Wong 2020</p>
+      <p class="footer-text"> Designed & Coded by Fiona Wong 2020</p>
     </footer>
 
   </body>

@@ -2,48 +2,80 @@
   box-sizing: border-box;
 }
 
-/* Remove hyperlink when mouse hovers over element */
-a:hover {
+/* Links */
+/*a:link, a:visited {
+  text-decoration: underline;
+  color: black;
+}*/
+
+a:link, a:visited, a.card-hover:link, a.navbar-brand:link, .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
 }
 
-.underline:hover {
+/*a.hero-subtitle:link {
+  text-decoration: none;
+  color: #2D9CDB;
+}*/
+
+a:hover, a:visited:hover, a.hero-subtitle:hover {
   text-decoration: underline;
+  color: gray;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
+.fa-2x {
+  color: gray;
 }
 
-body p, li {
-  font-size: 17px;
-}
-
-/* Resume color */
-.blue {
+/*a:hover,*/ a:link, a:visited, div.navbar-header a.navbar-brand:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover, .fa-2x:hover {
   color: #2D9CDB;
 }
 
+/* Fonts & Sizes */
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+.nav-item, .card-tag, .card-subtitle, .footer-text {
+  font-size: 17px;
+}
+
+.section {
+  line-height: 35px;
+  padding-bottom: 60px;
+}
+
+.section p {
+  padding-bottom: 20px;
+}
+
+/* Resume color
+.blue {
+  /*color: #2D9CDB; resume color
+  color: #0071ea;
+}*/
+
+/* Nav */
 #top-shadow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 58px;
-    z-index: 999;
-    -webkit-box-shadow: 0 8px 8px #efefef;
-    -moz-box-shadow: 0 8px 8px #efefef;
-    box-shadow: 0 6px 6px #efefef;
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 63px;
+  z-index: 999;
+  -webkit-box-shadow: 0 8px 8px #efefef;
+  -moz-box-shadow: 0 8px 8px #efefef;
+  box-shadow: 0 6px 6px #efefef;
+  display: none;
 }
 
 .navbar{
-    z-index:1000; /* lift .navbar above #top-shadow */
+    z-index:  1000; /* lift .navbar above #top-shadow */
 }
 
 .navbar.affix{ /* position fixed navbar */
-    top:0;
-    width:100%;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -52,6 +84,7 @@ body p, li {
   text-transform: capitalize;
 }
 
+/* Hero */
 .jumbotron {
   background-color: white;
   margin-bottom: -10px;
@@ -65,14 +98,16 @@ body p, li {
 .jumbotron h1 {
   font-weight: bold;
   letter-spacing: 2px;
+  padding-bottom: 10px;
 }
 
-.jumbotron h4 {
-  padding-top: 10px;
-  letter-spacing: 1px;
+.hero-subtitle {
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 35px;
 }
 
-/* Grow effect for cards */
+/* Cards */
 .effect {
    -webkit-transform: perspective(1px) translateZ(0);
    transform: perspective(1px) translateZ(0);
@@ -88,13 +123,6 @@ body p, li {
    transform: scale(1.06);
  }
 
- .center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
- }
-
  .card {
    border: none!important;
  }
@@ -105,10 +133,13 @@ body p, li {
   font-weight: bold;
 }
 
-.highlight {
-  background: linear-gradient(180deg, transparent 50%, #367DA2 50%);
+.card-tag {
+  color: gray;
+  opacity: 80%;
+  text-transform: uppercase;
 }
 
+/* Project colors */
 .santorini {
   background-color: #98B9EB;
 }
@@ -117,50 +148,147 @@ body p, li {
   background-color: #D3E8C5;
 }
 
-.alarmio {
-  background-color: #BDD8EC;
+.dexcom-mark {
+  background-color: #5ea530;
+  color: white;
 }
 
+.dexcom-bold {
+  color: #5ea530;
+}
+
+.dexcom-quote {
+  background-color: #5ea530;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.ddi {
+  background-color: #F9F2D6;
+}
+
+/* .alarmio {
+  background-color: #BDD8EC;
+}
 .dining {
   background-color: #bdb0de;
 }
-
 .medalarm {
   background-color: #deb0ba;
-}
+} */
 
 /* Title of projects */
 .title {
   margin-top: 60px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-/* Santorini page*/
-.parallax {
-  /* Set a specific height */
-  height: 700px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Overview container
+.grid-container {
+  display: grid;
+  /*margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 125px 200px 160px 300px 150px;
+  justify-content: space-evenly;
+  grid-column-gap: 10px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 0px;
 }
 
-.santorini-heading {
-  color: #629CF1;
+.grid-container h6 {
+  color: gray;
+  opacity: 80%;
+  text-transform: uppercase;
+  font-weight: bold;
+}*/
+
+.overview-heading {
+  padding-top: 90px;
 }
 
-.spacing {
-  line-height: 1.7em;
+.overview-row, .about-row {
+  display: flex;
 }
 
+.col-sm-8 {
+  padding-left: 0px;
+}
+
+/* Project pages */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-fluid {
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  /*margin-left: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;*/
+}
+
+.subtitle {
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.problem {
+  width: 70%;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote {
+  background-color: #007A43;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.pad-bottom {
+  padding-bottom: 30px;
+}
+
+/* Prev and next buttons */
+.back {
+  margin-bottom: 50px;
+}
+
+.next {
+  margin-bottom: 50px;
+}
+
+.float-right {
+  float: center;
+  margin-left: 50px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 50px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+/* Santorini page */
 .santorini-wireframe {
   padding-bottom: 20px;
 }
 
+/* Santorini persona carousel */
 .carousel {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -204,160 +332,28 @@ body p, li {
   font-size: 55px;
   color: black;
 }
-
-.mobile-only {
-  display: none;
-}
-
-/* modal images, tap to enlarge */
-.modal-img {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.modal-img:hover {
-  opacity: 0.7;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background: rgba(0,0,0,0.75); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 80px;
-}
-
-/* Add Animation */
-.modal-content, #caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 85px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
+/* End carousel */
 
 .santorini-final {
   margin-top: 20px;
 }
 
-/* Alarmio page*/
-
-.float-right {
-  float: center;
-  margin-left: 50px;
-}
-
-.float-left {
-  float: left;
-  margin-right: 50px;
-}
-
-.grid-container {
-  display: grid;
-  /*margin-left: 100px;
-  margin-right: 100px;*/
-  grid-template-columns: 125px 200px 160px 300px 150px;
-  justify-content: space-evenly;
-  grid-column-gap: 10px;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-}
-
-.grid-container h6 {
-  color: gray;
-  opacity: 80%;
-  text-transform: uppercase;
-}
-
-.col-sm-4 {
+/*.col-sm-4 {
   padding-left: 0px;
   padding-right: 30px;
-}
-
-.row-text {
-  display: flex;
 }
 
 .column-text {
   padding-top: 50px;
   line-height: 200%;
-}
-
-.img-fluid {
-  text-align: center;
-}
-
-.heading {
-  /*margin-left: 100px;*/
-  font-weight: bold;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5rem;
-}
-
-.subtitle {
-  padding-top: 30px;
-  font-weight: bold;
-}
+}*/
 
 .flex-div {
   display: flex;
   flex-direction: row;
 }
 
+/* Alarmio page */
 .storyboard {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -379,14 +375,6 @@ body p, li {
   margin-right: 10px;
 }
 
-.back {
-  margin-bottom: 50px;
-}
-
-.next {
-  margin-bottom: 50px;
-}
-
 /* Dining page */
 .dining-img {
   padding-top: 20px;
@@ -395,12 +383,6 @@ body p, li {
 
 .subheading {
   font-weight: bold;
-}
-
-.quote {
-  font-size: 20px;
-  background-color: #efefef;
-  padding: 15px 15px;
 }
 
 .final {
@@ -420,13 +402,9 @@ body p, li {
 
 /* About page */
 .about {
-  line-height: 175%;
+  line-height: 30px;
   padding-top: 80px;
   /*padding: 50px 200px;*/
-}
-
-.about-row {
-  display: flex;
 }
 
 .about-heading {
@@ -438,46 +416,15 @@ body p, li {
 .about-subheading {
   padding-top: 10px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 20px;
-}
-
-.skills-grid h6 {
-  color: gray;
-}
-
-.skills-img {
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-.attribute {
-  font-size: 12px;
-  color: lightgray;
-}
-
-.hobby-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-}
-
-.hobby-grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-}
-
+/* Footer */
 footer {
   padding-top: 50px;
   padding-bottom: 30px;
   opacity: 70%;
+
 }
 
 .footer-icons {
@@ -492,6 +439,7 @@ footer {
   opacity: 100%!important;
 }
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
 
@@ -503,10 +451,6 @@ footer {
     font-size: 35px;
   }
 
-  .parallax {
-    background-attachment: scroll;
-  }
-
   .grid-container {
     grid-template-columns: auto;
     margin-left: 20px;
@@ -515,7 +459,7 @@ footer {
     padding-bottom: 0px;
   }
 
-  .row-text {
+  /*.row-text {
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
@@ -530,7 +474,7 @@ footer {
     max-width: 100%;
     padding-left: 10px;
     padding-top: 10px;
-  }
+  }*/
 
   .body-content {
     padding-left: 0;
