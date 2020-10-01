@@ -424,7 +424,6 @@ footer {
   padding-top: 50px;
   padding-bottom: 30px;
   opacity: 70%;
-
 }
 
 .footer-icons {
@@ -451,42 +450,33 @@ footer {
     font-size: 17px;
   }
 
+  .jumbotron h4 {
+    font-size: 20px;
+  }
+
   .title {
     font-size: 35px;
   }
 
-  .grid-container {
-    grid-template-columns: auto;
-    margin-left: 20px;
-    margin-right: 10px;
-    padding-top: 50px;
-    padding-bottom: 0px;
+  .section p {
+    padding-bottom: 10px;
   }
 
-  /*.row-text {
+  .overview-heading {
+    padding-top: 50px;
+  }
+
+  .overview-row {
     flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   .col-sm-4 {
-    max-width: 100%;
-    padding-left: 10px;
+    padding-left: 0px;
   }
-
-  .col-sm-8 {
-    max-width: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
-  }*/
 
   .body-content {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .heading {
-    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .carousel {
@@ -537,23 +527,6 @@ footer {
     margin-bottom: 20px;
   }
 
-  .skills, .hobbies {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .skills-grid {
-    grid-template-columns: auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-
-  .hobby-grid {
-    grid-template-columns: auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-
   footer p {
     margin-left: 0px;
   }
@@ -574,29 +547,6 @@ footer {
   #work {
     padding-left: 20px;
     padding-right: 0px;
-  }
-
-  .grid-container {
-    grid-template-columns: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .row-text {
-    flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .col-sm-4 {
-    max-width: 100%;
-    padding-left: 0px;
-  }
-
-  .col-sm-8 {
-    max-width: 100%;
-    padding-left: 0px;
-    padding-top: 10px;
   }
 
   .heading {
@@ -629,18 +579,6 @@ footer {
 
   .profile {
     margin-right: 10px;
-  }
-
-  .skills-grid {
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-
-  .hobby-grid {
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
   }
 
   .icon {
