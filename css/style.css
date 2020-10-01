@@ -101,11 +101,11 @@ body {
   padding-bottom: 10px;
 }
 
-.hero-subtitle {
+/*.hero-subtitle {
   margin-left: 200px;
   margin-right: 200px;
   line-height: 35px;
-}
+}*/
 
 /* Cards */
 .effect {
@@ -445,6 +445,10 @@ footer {
 
   [class*="card-"] {
     width: 100%;
+  }
+
+  body {
+    font-size: 17px;
   }
 
   .title {
