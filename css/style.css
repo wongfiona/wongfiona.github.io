@@ -164,6 +164,21 @@ body {
   border-radius: 10px;
 }
 
+.yelp {
+  background-color: #F6BEB7;
+}
+
+.yelp-bold {
+  color: #e8897d;
+}
+
+.yelp-quote {
+  background-color: #e8897d;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
 .ddi {
   background-color: #F9F2D6;
 }
@@ -244,7 +259,7 @@ body {
 }
 
 .problem {
-  width: 70%;
+  width: 80%;
   font-weight: bold;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -450,8 +465,14 @@ footer {
     font-size: 17px;
   }
 
+  .jumbotron h1 {
+    font-size: 37px;
+  }
+
   .jumbotron h4 {
     font-size: 20px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
   }
 
   .title {
@@ -470,10 +491,6 @@ footer {
     flex-direction: column;
   }
 
-  .col-sm-4 {
-    padding-left: 0px;
-  }
-
   .body-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -481,6 +498,10 @@ footer {
 
   .carousel {
     display: none;
+  }
+
+  .problem {
+    width: 100%;
   }
 
   .mobile-only {
@@ -499,7 +520,7 @@ footer {
 
   .float-right {
     float: center;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   iframe {
