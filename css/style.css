@@ -8,7 +8,7 @@
   color: black;
 }*/
 
-a:link, a:visited, a.card-hover:link, a.navbar-brand:link, .navbar-light .navbar-nav .nav-link {
+a:link, a:visited, a.card-hover:link:hover, a.navbar-brand:link:hover, .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
 }
 
