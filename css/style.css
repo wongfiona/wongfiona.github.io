@@ -17,7 +17,7 @@ a:link, a:visited, a.card-hover:link, a.navbar-brand:link, .navbar-light .navbar
   color: #2D9CDB;
 }*/
 
-a:hover, a:visited:hover, a.hero-subtitle:hover {
+a:link:hover, a:visited:hover, a.hero-subtitle:hover {
   text-decoration: underline;
   color: gray;
 }
@@ -26,8 +26,17 @@ a:hover, a:visited:hover, a.hero-subtitle:hover {
   color: gray;
 }
 
-/*a:hover,*/ a:link, a:visited, div.navbar-header a.navbar-brand:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover, .fa-2x:hover {
+/*a:hover,*/ a:link, a:visited, div.navbar-header a.navbar-brand:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover, .fa-2x:hover, .btn-outline-secondary {
   color: #2D9CDB;
+}
+
+.btn-outline-secondary {
+  border-color: #2D9CDB;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #2D9CDB;
+  border-color: #2D9CDB;
 }
 
 /* Fonts & Sizes */
@@ -479,9 +488,9 @@ footer {
     font-size: 35px;
   }
 
-  .section p {
+  /* .section p {
     padding-bottom: 10px;
-  }
+  } */
 
   .overview-heading {
     padding-top: 50px;
@@ -506,6 +515,7 @@ footer {
 
   .problem {
     width: 100%;
+    font-size: 25px;
   }
 
   .mobile-only {
