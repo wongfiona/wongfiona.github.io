@@ -12,6 +12,10 @@ a:link, a:visited, a.card-hover:link:hover, a.navbar-brand:link:hover, .navbar-l
   text-decoration: none;
 }
 
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  text-decoration: none !important;
+}
+
 /*a.hero-subtitle:link {
   text-decoration: none;
   color: #2D9CDB;
@@ -108,6 +112,14 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   padding-bottom: 10px;
+}
+
+.hero {
+  width: 45%;
+}
+
+.hero h4 {
+  line-height: 1.5;
 }
 
 /*.hero-subtitle {
@@ -484,6 +496,11 @@ footer {
     margin-right: 20px;*/
   }
 
+  .hero {
+    width: 100%;
+  }
+
+
   .title {
     font-size: 35px;
   }
@@ -587,6 +604,12 @@ footer {
     padding-left: 20px;
     padding-right: 0px;
   }
+
+
+  .hero {
+    width: 60%;
+  }
+
 
   .heading {
     margin-left: 0px;
