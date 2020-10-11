@@ -504,6 +504,10 @@ footer {
     padding-left: 0px;
   }
 
+  .overview-right p {
+    padding-bottom: 10px;
+  }
+
   .body-content {
     padding-left: 20px;
     padding-right: 20px;
