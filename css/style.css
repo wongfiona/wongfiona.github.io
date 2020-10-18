@@ -167,6 +167,10 @@ body {
   background-color: #F6BEB7;
 }
 
+.yelp-background {
+  background-color: #fde8e5;
+}
+
 .yelp-bold {
   color: #e8897d;
 }
@@ -198,6 +202,27 @@ body {
   /*margin-bottom: 30px;*/
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+/* Parallax */
+.yelp-parallax {
+  /* The image used */
+  background-image: url("../images/yelp-imgs/yelp-banner4.png");
+}
+
+.dexcom-parallax {
+  background-image: url("../images/dexcom-imgs/dexcom-banner2.png");
+}
+
+.parallax {
+  /* Set a specific height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .overview-heading {
