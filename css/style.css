@@ -214,6 +214,14 @@ body {
   background-image: url("../images/dexcom-imgs/dexcom-banner2.png");
 }
 
+.santorini-parallax {
+  background-image: url("../images/santorini-imgs/santorini-banner3.png");
+}
+
+.ddi-parallax {
+  background-image: url("../images/dexcom-imgs/user-testing-crop.png");
+}
+
 .parallax {
   /* Set a specific height */
   height: 600px;
@@ -563,6 +571,10 @@ footer {
   .icon {
     padding-right: 10px;
     margin-left: 20px;
+  }
+
+  .parallax {
+    background-attachment: scroll;
   }
 
 }
