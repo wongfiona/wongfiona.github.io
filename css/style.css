@@ -574,7 +574,7 @@ footer {
   }
 
   .parallax {
-    background-attachment: scroll;
+    display: none;
   }
 
 }
