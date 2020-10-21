@@ -175,11 +175,26 @@ body {
   color: #e8897d;
 }
 
+.yelp-mark {
+  /*background-color: #EFC1BB;*/
+  background: linear-gradient(to top, #EFC1BB 50%, transparent 50%);
+}
+
 .yelp-quote {
   background-color: #e8897d;
   color: white;
-  padding: 20px 20px;
+  padding: 20px;
   border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.yelp-number {
+  color: #F6BEB7;
+  opacity: 40%;
+  font-size: 80px;
+  position: absolute;
+  top: -20px;
+  z-index: -1;
 }
 
 .ddi {
@@ -253,8 +268,10 @@ body {
   width: 50%;
 }
 
-.img-fluid {
-  text-align: center;
+.middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .heading {
