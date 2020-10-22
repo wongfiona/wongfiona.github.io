@@ -139,30 +139,6 @@ body {
 }
 
 /* Project colors */
-.santorini {
-  background-color: #98B9EB;
-}
-
-.dexcom {
-  background-color: #D3E8C5;
-}
-
-.dexcom-mark {
-  background-color: #5ea530;
-  color: white;
-}
-
-.dexcom-bold {
-  color: #5ea530;
-}
-
-.dexcom-quote {
-  background-color: #5ea530;
-  color: white;
-  padding: 20px 20px;
-  border-radius: 10px;
-}
-
 .yelp {
   background-color: #F6BEB7;
 }
@@ -195,6 +171,25 @@ body {
   position: absolute;
   top: -20px;
   z-index: -1;
+}
+
+.dexcom {
+  background-color: #D3E8C5;
+}
+
+.dexcom-bold {
+  color: #5ea530;
+}
+
+.dexcom-quote {
+  background-color: #5ea530;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.santorini {
+  background-color: #98B9EB;
 }
 
 .ddi {
