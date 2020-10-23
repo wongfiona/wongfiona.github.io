@@ -143,17 +143,14 @@ body {
   background-color: #F6BEB7;
 }
 
-.yelp-background {
-  background-color: #fde8e5;
-}
-
 .yelp-bold {
   color: #e8897d;
 }
 
 .yelp-mark {
   /*background-color: #EFC1BB;*/
-  background: linear-gradient(to top, #EFC1BB 50%, transparent 50%);
+  background: linear-gradient(to top, #F9D9D5 50%, transparent 50%);
+  padding: 0 0.2em;
 }
 
 .yelp-quote {
@@ -186,10 +183,30 @@ body {
   color: white;
   padding: 20px 20px;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .santorini {
   background-color: #98B9EB;
+}
+
+.santorini-bold {
+  color: #6093e0;
+  /*color: #08469F; santorini site color*/
+}
+
+.santorini-mark {
+  background: linear-gradient(to top, #c5d7f3 50%, transparent 50%);
+  padding: 0 0.2em;
+}
+
+.santorini-number {
+  color: #98B9EB;
+  opacity: 40%;
+  font-size: 80px;
+  position: absolute;
+  top: -20px;
+  z-index: -1;
 }
 
 .ddi {
