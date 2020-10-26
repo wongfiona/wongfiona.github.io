@@ -178,6 +178,15 @@ body {
   color: #5ea530;
 }
 
+.dexcom-number {
+  color: #5ea530;
+  opacity: 30%;
+  font-size: 80px;
+  position: absolute;
+  top: -20px;
+  z-index: -1;
+}
+
 .dexcom-quote {
   background-color: #5ea530;
   color: white;
