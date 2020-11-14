@@ -17,12 +17,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aos-master/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/ed23f633b6.js" crossorigin="anonymous"></script>
+    <script src="aos-master/dist/aos.js"></script>
   </head>
 
   <body>
@@ -56,30 +57,33 @@
     <div id="top-shadow"></div>
     <script src="js/dropShadow.js"></script>
 
+    <script> AOS.init(); </script>
     <!-- About Me -->
     <div class="container about">
       <div class="about-row pad-bottom">
-        <div class="col-sm-5">
+        <div class="col-sm-5" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-out">
           <img class="profile rounded img-fluid pad-bottom" src="images/about-imgs/seattle.png" style="width:100%;">
           <!--<p style="color:gray;">📍 <em>Fiona in Seattle, Summer 2019</em></p>-->
         </div>
         <div class="col-sm-7">
-          <h1 class="about-heading">Hello!</h1>
-          <p>I'm a recent Class of 2020 graduate from UC San Diego 🎓 I have a B.S. in Cognitive Science with a specialization in Human-Computer interaction
+          <h1 class="about-heading" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="300">Hello!</h1>
+          <p data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="600">I'm a recent Class of 2020 graduate from UC San Diego 🎓 I have a B.S. in Cognitive Science with a specialization in Human-Computer interaction
           & a minor in Psychology.
           I'm an empathetic designer who likes to create meaningful user experiences that make people's lives a little bit easier.
           I am currently seeking UI/UX Design internships or full-time positions in San Francisco! 🌉</p>
           <!--I have a user-centered design approach and want to design seamless user experiences across platforms.
           I am interested in the intersections of technology and design and enjoy learning new design tools and developing my skills
             while working on design projects.-->
-          <h4 class="about-subheading">Experience</h4>
-          <p>This past summer, I was designing for small business recovery as a Product Designer at
-            <a href="https://levelup.ucsddesign.co/" target="_blank">Design Co's Level Up</a> design fellowship.
-            I was also working with the <a href="http://ddi.ucsd.edu/" target="_blank">UCSD Design Lab</a>
-            and <a href="https://www.dexcom.com/" target="_blank">Dexcom</a> to redesign the Follow app
-            for caretakers of people with Type 1 diabetes.
-            Previously, I was a web designer / developer at <a href="https://precisepk.com/"
-            target="_blank">PrecisePK</a>.</p>
+          <div data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="900">
+            <h4 class="about-subheading">Experience</h4>
+            <p>This past summer, I was designing for small business recovery as a Product Designer at
+              <a href="https://levelup.ucsddesign.co/" target="_blank">Design Co's Level Up</a> design fellowship.
+              I was also working with the <a href="http://ddi.ucsd.edu/" target="_blank">UCSD Design Lab</a>
+              and <a href="https://www.dexcom.com/" target="_blank">Dexcom</a> to redesign the Follow app
+              for caretakers of people with Type 1 diabetes.
+              Previously, I was a web designer / developer at <a href="https://precisepk.com/"
+              target="_blank">PrecisePK</a>.</p>
+          </div>
         </div>
       </div>
       <!--<div class="row">

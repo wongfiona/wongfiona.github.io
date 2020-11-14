@@ -17,12 +17,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aos-master/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/ed23f633b6.js" crossorigin="anonymous"></script>
+    <script src="aos-master/dist/aos.js"></script>
   </head>
 
   <body>
@@ -56,6 +57,7 @@
     <div id="top-shadow"></div>
     <script src="js/dropShadow.js"></script>
 
+    <script> AOS.init(); </script>
     <div class="container-fluid">
       <!--<h1 class="text-center title">Yelp Appointments</h1>-->
       <div class="parallax yelp-parallax">
@@ -83,9 +85,8 @@
         <h3 class="heading">Background</h3>
         <p>
           This past summer, I participated in <a href="https://levelup.ucsddesign.co/" target="_blank">Design Co's Level Up</a> fellowship.
-          Level Up is a 10-week design program that provides students with the opportunity to tackle a real-world challenge and network with experienced industry professionals.
-          Participants worked in teams of four to produce a website showcase of project deliverables with the guidance of industry mentors.</p>
-        <div class="row pad-bottom">
+          Level Up is a 10-week design program that provides students with the opportunity to tackle a real-world challenge under the guidance of industry mentors.</p>
+        <div class="row pad-bottom" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
           <div class="col-sm-6 pad-bottom">
             <img class="img-fluid center" src="images/yelp-imgs/team4.JPG" style="width:70%;">
           </div>
@@ -100,7 +101,8 @@
 
       <div class="section">
         <h3 class="heading">Problem</h3>
-        <h2 class="text-center center yelp-bold problem">How is COVID-19 affecting small businesses in the personal services industry?</h2>
+        <h2 class="text-center center yelp-bold problem" data-aos="fade-up" data-aos-duration="300" data-aos-easing="zoom-in-out" data-aos-anchor-placement="top-center">
+          How is COVID-19 affecting small businesses in the personal services industry?</h2>
         <p>As people are adjusting to the new norms of everyday life during the pandemic, a lot of small businesses
           are struggling to make ends meet as they are seeing a <b class="yelp-bold">decline in their customers and as
           a result, their finances</b>. There’s a fair amount of uncertainty over COVID-19 for both the customers and workers of
@@ -121,16 +123,16 @@
         <h3 class="heading">Why Personal Services?</h3>
         <p style="padding-bottom:0px;">After conducting some background research, we decided to focus on the personal services sector for several reasons:</p>
         <div class="row">
-          <div class="col-sm-4">
-            <h4 class="subtitle yelp-bold">Negatively impacted</h4>
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+            <h4 class="subtitle yelp-bold">📉 Negatively impacted</h4>
             <p>They're one of the top 3 industries most negatively affected by the pandemic.</p>
           </div>
-          <div class="col-sm-4">
-            <h4 class="subtitle yelp-bold">Online presence</h4>
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
+            <h4 class="subtitle yelp-bold">🖥 Online presence</h4>
             <p>They could benefit from creating an online presence or from transitioning to a digital platform.</p>
           </div>
-          <div class="col-sm-4">
-            <h4 class="subtitle yelp-bold">No immediate solutions</h4>
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center" data-aos-delay="500">
+            <h4 class="subtitle yelp-bold">🤔 No immediate solutions</h4>
             <p>Most solutions are focused on the food & restaurant industry, not personal services.</p>
           </div>
         </div>
@@ -154,8 +156,8 @@
       <div class="section">
         <h3 class="heading">Key Interview Findings</h3>
         <div class="row pad-bottom">
-          <div class="col-sm-6">
-            <h4 class="subtitle"><mark class="yelp-mark">Small Businesses</mark></h4>
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+            <h4 class="subtitle"><mark class="yelp-mark">Small Businesses 👨🏻‍💼</mark></h4>
             <p>Many owners' ability to work and run their business has decreased. Their challenges include:</p>
             <ul>
               <li>Being uncertain when customers will return normally</li>
@@ -164,8 +166,8 @@
               <li>Laying off employees in order to make ends meet</li>
             </ul>
           </div>
-          <div class="col-sm-6">
-            <h4 class="subtitle"><mark class="yelp-mark">Consumers</mark></h4>
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center" data-aos-delay="400">
+            <h4 class="subtitle"><mark class="yelp-mark">Consumers 💇🏻‍♀️</mark></h4>
             <p>We asked consumers why they are <b class="yelp-bold">not resuming use of personal care services</b>. These included:</p>
             <ul>
               <li>Fear over being indoors in public spaces</li>
@@ -184,7 +186,8 @@
         <p>After conducting user research, our main findings helped narrow down our problem statement. Consumers aren’t sure of how small businesses in personal services
           are taking precautions against COVID-19, while owners of small businesses have lack of experience and have put creating an online presence in the back burner
           of other COVID-19 obstacles.</p>
-        <h2 class="text-center center yelp-bold problem">How might we bridge the distrust between customer and business through an online presence?</h2>
+        <h2 class="text-center center yelp-bold problem" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+          How might we bridge the distrust between customer and business through an online presence?</h2>
       </div>
 
       <!--<div class="section">
@@ -251,15 +254,15 @@
           to help cash flow concerns due to less customers coming in during the pandemic</li>
         </ol>-->
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
             <h4 class="subtitle yelp-bold"><span class="subheading yelp-number">01</span>Book appointments in app</h4>
             <p>Allow users to book appointments directly in the Yelp app, integrating the feature on the business page.</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
             <h4 class="subtitle yelp-bold"><span class="yelp-number">02</span>At Home appointments</h4>
             <p>Offers a new option to book an appointment to take place at the comfort of your own home.</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center" data-aos-delay="500">
             <h4 class="subtitle yelp-bold"><span class="yelp-number">03</span>Gift cards</h4>
             <p>Allow users to purchase gift cards in-app to increase cash flow due to less customers coming in.</p>
           </div>
@@ -362,7 +365,7 @@
       </div>
 
       <div class="section">
-        <h3 class="heading">Takeaways</h3>
+        <h3 class="heading">Reflection</h3>
         <!--<p>We had to pivot midway upon realizing our initial app idea wouldn’t work out. With our short timeline, that posed a significant challenge to us
           and we felt lost on what our next steps should be. We consulted our mentors who advised us to look through our user research and interview findings,
           letting that guide our direction.</p>-->

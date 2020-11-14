@@ -17,12 +17,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aos-master/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/ed23f633b6.js" crossorigin="anonymous"></script>
+    <script src="aos-master/dist/aos.js"></script>
   </head>
 
   <body>
@@ -30,8 +31,7 @@
     <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">
-            <!--<img src="images/icon.png" style="width: 50px">-->Fiona Wong</a>
+          <a class="navbar-brand" href="index.html">Fiona Wong</a>
         </div>
 
         <!-- Toggler/collapsibe Button -->
@@ -58,13 +58,15 @@
     <script src="js/dropShadow.js"></script>
 
     <!-- Jumbotron -->
+    <script> AOS.init(); </script>
     <div class="jumbotron">
       <div class="container text-center hero">
-        <h1>Hi, I'm Fiona! 👋🏻</h1>
-        <h4>I'm a UI / UX designer based in San Francisco.
-        Previously <a class="blue" href="http://ddi.ucsd.edu/" target="_blank">@UCSD Design Lab</a>
+        <h1 data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">Hi, I'm Fiona! 👋🏻</h1>
+        <h4 data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="400">
+          I'm a UI / UX designer based in San Francisco.
+          Previously <a class="blue" href="http://ddi.ucsd.edu/" target="_blank">@UCSD Design Lab</a>
           & <a class="blue" href="https://precisepk.com/"target="_blank">@PrecisePK</a>.
-        Currently seeking full-time opportunities!</h4>
+          Currently seeking full-time opportunities!</h4>
 
         <!--<h6><b>Currently:</b> Looking for UI / UX internships or full time, part-time web dev @PrecisePK</h6>
         <h6><b>Previously:</b> UX researcher @UCSD Design Lab</h6>-->
@@ -72,7 +74,7 @@
     </div>
 
     <!-- Projects card deck -->
-    <div class="container" id="work">
+    <div class="container" id="work" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="800">
       <div class="card-deck">
         <!-- Design Co: Level Up -->
         <div class="card">
