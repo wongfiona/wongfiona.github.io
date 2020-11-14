@@ -24,6 +24,10 @@ a:link:hover, a:visited:hover, a.hero-subtitle:hover {
   color: #2D9CDB;
 }
 
+.gray {
+  background-color: #f9f9f9;
+}
+
 .btn-outline-secondary {
   border-color: #2D9CDB;
 }
@@ -45,7 +49,8 @@ body {
 
 .section {
   line-height: 35px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .section p {
