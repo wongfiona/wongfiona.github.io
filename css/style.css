@@ -274,8 +274,12 @@ body {
   background-size: cover;
 }
 
+.overview-section {
+  padding-top: 30px;
+}
+
 .overview-heading {
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 .overview-row, .about-row {
