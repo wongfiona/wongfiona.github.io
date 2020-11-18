@@ -275,7 +275,7 @@ body {
 }
 
 .overview-section {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .overview-heading {
@@ -295,6 +295,11 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+}
+
+.vertical-center {
+  margin: auto;
   width: 50%;
 }
 
@@ -569,6 +574,11 @@ footer {
 
   .mobile-only {
     display: block;
+  }
+
+  .vertical-center {
+    margin: auto;
+    width: 100%;
   }
 
   .back {
