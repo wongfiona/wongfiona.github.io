@@ -27,6 +27,12 @@
   </head>
 
   <body>
+    <!-- Progress bar
+    <div class="progress-container">
+      <div class="progress-bar yelp" id="myBar"></div>
+    </div>
+    <script src="js/progressBar.js"></script> -->
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md bg-white navbar-light sticky-top justify-content-right">
       <div class="container">
@@ -111,14 +117,6 @@
         <p class="yelp-quote text-center"><em><b>“It would be nice if there’s any way to announce our cleaning protocol is 100% in effect so we can rebuild some trust with our customers.”</em></b></p>
       </div>
 
-      <!--<div class="section">
-        <h3 class="heading">Speaking directly to small business owners</h3>
-        <p>Before choosing a sector to focus on, we talked to several different business owners about the current obstacles they
-          were facing, and some of our insights include a lot of general <b class="yelp-bold">uncertainty around the situation</b> and inability
-            to plan as a result, financial difficulty due to not having a backup plan, and also difficulty in transitioning
-            to an online presence in order to communicate with their customers.</p>
-      </div>-->
-
       <div class="section">
         <h3 class="heading">🤔 Why Personal Services?</h3>
         <p>After conducting some background research, we decided to focus on the personal services sector for several reasons:</p>
@@ -143,46 +141,54 @@
 
       <div class="section">
         <h3 class="heading">🗣 User Research</h3>
+        <h4 class="subtitle"><mark class="yelp-mark">Small Businesse‍s</mark></h4>
         <div class="row">
-          <div class="col-sm-7">
-            <p>We wanted to hear about what some of the real obstacles that small business owners are struggling with in their day to day since the pandemic started
-              and were fortunate enough to be able to routinely talk to <b  class="yelp-bold">5 small business owners</b> throughout the process.</p>
-            <p>In addition to conducting Zoom interviews,
-              we also sent out <b class="yelp-bold">surveys on social media platforms</b>, such as Reddit and Facebook, to grasp a better understanding of our users' pain points.</p>
+          <div class="col-sm-6">
+            <p>We wanted to hear about some of the real obstacles that small business owners are struggling with in their day to day since the pandemic started.
+              We were able to interview and routinely talk to <b  class="yelp-bold">4 small business owners over Zoom</b>.</p>
+            <p>They told us about their challenges and concerns over their ability to work and continue to run their businesses.</p>
+            <!--<p>We also posted <b class="yelp-bold">surveys on social media platforms</b> to reach more users and grasp a better understanding of their pain points.</p>-->
           </div>
-          <div class="col-sm-5">
-            <img class="img-fluid center middle" src="images/yelp-imgs/businesses.png" style="width:100%;">
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
+            <!--<img class="img-fluid center" src="images/yelp-imgs/businesses.png" style="width:100%;">-->
+            <img class="img-fluid center" src="images/yelp-imgs/business-quotes.png" style="width:90%;">
           </div>
         </div>
+
+        <h4 class="subtitle"><mark class="yelp-mark">Consumers</mark></h4>
+        <p>We also asked consumers why they are <b class="yelp-bold">not resuming use of personal care services</b> and posted surveys on social media platforms to reach more users and grasp a better understanding of their pain points. These included:</p>
+        <img class="img-fluid center pad-bottom" src="images/yelp-imgs/consumer-quotes.png" style="width:80%;" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
+        <p>Small businesses are taking one of the biggest hits from the pandemic. It was apparent that COVID-19 created a rift of disconnection between small businesses and their customers, leaving them both in a place of apprehension.</p>
+
       </div>
 
-      <div class="section">
+      <!--<div class="section">
         <h3 class="heading">🕵🏻‍♀️ Key Interview Findings</h3>
-        <div class="row pad-bottom">
-          <div class="col-sm-6 pad-bottom" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
+        <div class="row">
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
             <h4 class="subtitle"><mark class="yelp-mark">Small Businesse‍s</mark></h4>
             <p>Many owners' ability to work and run their business has decreased. Their challenges include:</p>
             <ul>
               <li>Being uncertain when customers will return normally</li>
-              <li>Unsure how to transition to an online presence</li>
+              <li>Unsure how to transition to an online platform</li>
               <li>Struggling financially with no backup survival plan</li>
               <li>Laying off employees in order to make ends meet</li>
             </ul>
           </div>
-          <div class="col-sm-6 pad-bottom" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-delay="400" data-aos-once="true">
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-delay="400" data-aos-once="true">
             <h4 class="subtitle"><mark class="yelp-mark">Consumers</mark></h4>
             <p>We asked consumers why they are <b class="yelp-bold">not resuming use of personal care services</b>. These included:</p>
-            <ul>
+            <<ul>
               <li>Fear over being indoors in public spaces</li>
               <li>Lack of safety regulations & uniformity across businesses</li>
               <li>Lack of knowledge with precautions taken by workers </li>
             </ul>
+            <img class="img-fluid center vertical-center" src="images/yelp-imgs/consumer-quotes.png" style="width:100%;">
           </div>
         </div>
-
         <p>Small businesses are taking one of the biggest hits from the pandemic. It was apparent that COVID-19 created a rift of disconnection between small businesses and their customers, leaving them both in a place of apprehension.</p>
-        <p class="yelp-quote text-center"><em><b>“An online presence would really be helpful, but we don’t know where to start with that.”</em></b></p>
-      </div>
+        <!--<p class="yelp-quote text-center"><em><b>“An online presence would really be helpful, but we don’t know where to start with that.”</em></b></p>
+      </div>-->
 
       <div class="section">
         <h3 class="heading">🔍 Narrowing our Scope </h3>
@@ -325,8 +331,8 @@
         <div class="row pad-bottom" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
           <div class="col-sm-7 vertical-center">
             <h4 class="subtitle yelp-bold">A seamless booking process directly in the Yelp app</h4>
-            <p>With options to have your appointment at store or at the comfort of your home,
-              the safety precautions followed will reflect on the screen depending on the type of appointment you select.</p>
+            <p>Including options to have your appointment at store or at the comfort of your home.</p>
+              <!--the safety precautions followed will reflect on the screen depending on the type of appointment you select.-->
             <!--<h5 class="subheading">Features</h5>
             <ul>
               <li>Enter your address or use current location</li>
