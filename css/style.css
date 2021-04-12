@@ -271,15 +271,15 @@ body {
 /* Parallax */
 .yelp-parallax {
   /* The image used */
-  background-image: url("../images/yelp-imgs/yelp-banner4.png");
+  background-image: url("../images/yelp-imgs/yelp-banner.png");
 }
 
 .dexcom-parallax {
-  background-image: url("../images/dexcom-imgs/dexcom-banner2.png");
+  background-image: url("../images/dexcom-imgs/dexcom-banner.png");
 }
 
 .santorini-parallax {
-  background-image: url("../images/santorini-imgs/santorini-banner3.png");
+  background-image: url("../images/santorini-imgs/santorini-banner.png");
 }
 
 .onecomm-parallax {
