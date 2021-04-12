@@ -250,7 +250,7 @@ body {
   margin-top: 60px;
   /*margin-bottom: 30px;*/
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 /* Progress bar
@@ -292,7 +292,7 @@ body {
 
 .parallax {
   /* Set a specific height */
-  height: 600px;
+  height: 550px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
