@@ -542,6 +542,10 @@ footer {
     width: 100%;
   }
 
+  .card-body {
+    padding: 0;
+  }
+
   body {
     font-size: 17px;
   }
