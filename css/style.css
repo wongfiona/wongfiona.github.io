@@ -41,6 +41,7 @@ a:link:hover, a:visited:hover, a.hero-subtitle:hover {
 body {
   font-family: 'Karla', sans-serif;
   font-size: 20px;
+  line-height: 1.8;
 }
 
 .nav-item, .card-tag, .card-subtitle, .footer-text, .about p {
@@ -48,7 +49,6 @@ body {
 }
 
 .section {
-  line-height: 1.7;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -503,7 +503,6 @@ body {
 
 /* About page */
 .about {
-  line-height: 1.6;
   padding-top: 80px;
 }
 
@@ -580,7 +579,7 @@ footer {
   }
 
   .section {
-    line-height: 1.6;
+    padding-bottom: 10px;
   }
 
   .section p {
