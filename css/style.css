@@ -571,14 +571,20 @@ footer {
 
   .title {
     font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
 
   /* .section p {
     padding-bottom: 10px;
   } */
 
+  .overview-section {
+    margin-top: 0;
+  }
+
   .overview-heading {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .overview-row {
