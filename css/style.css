@@ -48,7 +48,7 @@ body {
 }
 
 .section {
-  line-height: 35px;
+  line-height: 1.7;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -503,14 +503,14 @@ body {
 
 /* About page */
 .about {
-  line-height: 30px;
+  line-height: 1.6;
   padding-top: 80px;
 }
 
 .about-heading {
   padding-bottom: 10px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 /* Footer */
@@ -558,9 +558,13 @@ footer {
     margin-right: 20px;*/
   }
 
-  /*.hero {
-    width: 100%;
-  }*/
+  .hero h4 {
+    line-height: 1.4;
+  }
+
+  .hero h4:not(:last-child) {
+    display: inline;
+  }
 
   #work {
     grid-template-columns: 100%;
@@ -575,9 +579,13 @@ footer {
     margin-bottom: 10px;
   }
 
-  /* .section p {
+  .section {
+    line-height: 1.6;
+  }
+
+  .section p {
     padding-bottom: 10px;
-  } */
+  }
 
   .overview-section {
     margin-top: 0;
@@ -650,21 +658,13 @@ footer {
   }
 
   .about {
-    padding: 10px 8px;
+    padding: 10px 5px;
   }
 
   .about-row {
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
-  }
-
-  .profile {
-    margin-bottom: 20px;
-  }
-
-  footer p {
-    margin-left: 0px;
   }
 
   .icon {
