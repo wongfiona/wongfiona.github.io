@@ -103,12 +103,16 @@ body {
   padding-bottom: 10px;
 }
 
-.hero {
-  width: 46%;
+/*.hero {
+  width: 50%;
+}*/
+
+.hero-description {
+  margin-bottom: 50px;
 }
 
 .hero h4 {
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 /* Cards */
@@ -245,14 +249,6 @@ body {
   background-color: #deb0ba;
 } */
 
-/* Title of projects */
-.title {
-  margin-top: 60px;
-  /*margin-bottom: 30px;*/
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
 /* Progress bar
 .progress-container {
   width: 100%;
@@ -292,17 +288,26 @@ body {
 
 .parallax {
   /* Set a specific height */
-  height: 550px;
+  height: 60vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: translateZ(-1px) scale(1.2);
+}
+
+/* Title of projects */
+.title {
+  margin-top: 120px;
+  margin-bottom: -80px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .overview-section {
-  padding-top: 20px;
+  margin-top: 50px;
 }
 
 .overview-heading {
@@ -553,9 +558,9 @@ footer {
     margin-right: 20px;*/
   }
 
-  .hero {
+  /*.hero {
     width: 100%;
-  }
+  }*/
 
   #work {
     grid-template-columns: 100%;
@@ -676,9 +681,9 @@ footer {
     padding-right: 0px;
   }
 
-  .hero {
+  /*.hero {
     width: 65%;
-  }
+  }*/
 
   .heading {
     margin-left: 0px;
