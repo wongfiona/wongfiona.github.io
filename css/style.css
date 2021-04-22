@@ -533,7 +533,7 @@ footer {
 }
 
 /***** MEDIA QUERIES ******/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* For mobile phones */
 
   [class*="card-"] {
@@ -564,6 +564,8 @@ footer {
 
   #work {
     grid-template-columns: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
@@ -676,8 +678,13 @@ footer {
     width: 100%;
   }
 
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #work {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 0px;
   }
 
@@ -720,17 +727,5 @@ footer {
   .icon {
     padding-right: 10px;
     margin-right: 100px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-/* For desktop */
-  .card-deck {
-    padding-bottom: 10px;
-  }
-
-  #work {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
