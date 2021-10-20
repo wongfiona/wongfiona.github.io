@@ -261,6 +261,10 @@ body {
 } */
 
 /* Parallax */
+.npr-parallax {
+  background-image: url("../images/npr-imgs/npr-banner.png");
+}
+
 .yelp-parallax {
   /* The image used */
   background-image: url("../images/yelp-imgs/yelp-banner.png");
