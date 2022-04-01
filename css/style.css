@@ -306,6 +306,10 @@ body {
   letter-spacing: 1px;
 }
 
+.project-header-img {
+  padding: 0px;
+}
+
 .overview-section {
   margin-top: 50px;
 }
@@ -508,6 +512,11 @@ body {
 
 .about-heading {
   padding-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.about-subheading {
   font-weight: bold;
   letter-spacing: 1px;
 }
